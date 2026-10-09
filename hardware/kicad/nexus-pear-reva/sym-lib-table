@@ -1,0 +1,1 @@
+(sym_lib_table (lib (name "Nexus") (type "KiCad") (uri "${KIPRJMOD}/Nexus.kicad_sym") (options "") (descr "Project symbols with explicit pad numbering")))

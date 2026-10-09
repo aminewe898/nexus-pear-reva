@@ -1,0 +1,157 @@
+(footprint "Fuse_1812_4532Metric"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf)")
+	(tags "fuse")
+	(property "Reference" "F1"
+		(at 0 -0.65 0)
+		(layer "F.SilkS")
+		(uuid "ccf38209-9d48-4222-8b1b-5ef2cafd9c4d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "3A / 24V PTC"
+		(at 0 2.65 0)
+		(layer "F.Fab")
+		(uuid "a0d487bd-a12f-4c2f-ac66-8f4e7046ea0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.littelfuse.com/assetdocs/low-rho-datasheet-update?assetguid=b786faf0-de16-4763-9d22-6b8080943caf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86deb328-fc07-463a-9065-b92b5e91859a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Manufacturer Low Rho table: 3A hold, 24V, R1max30mOhm; recommended pads 1.78x3.45mm, 3.15mm inner gap. Derates to 2.45A at40C and1.85A at60C."
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3eea58ea-9e91-4844-b38f-0f2fabb2e32c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "013ad789-1ca4-48b1-84f6-29bd5823b252")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "1812L300/24SLER"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5f09210d-5f87-4479-8846-f35be7cccf68")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.386252 -1.71)
+		(end 1.386252 -1.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "064d19bf-2c29-4da7-8b43-1aa180b76ee1")
+	)
+	(fp_line
+		(start -1.386252 1.71)
+		(end 1.386252 1.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ae677f5-3f8d-43e6-b9cb-2e4cd4e186f1")
+	)
+	(fp_rect
+		(start -3.6 -2)
+		(end 3.6 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fa76949c-7585-4bb2-b74f-2501ad3e9c3a")
+	)
+	(fp_rect
+		(start -2.25 -1.6)
+		(end 2.25 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "20403923-751a-4c44-9892-d1dcba3bbe73")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4b5754e6-2879-45e6-9302-8f79184224e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.465 0)
+		(size 1.78 3.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.222222)
+		(uuid "e47d605c-6dd3-43ca-a2e7-2f4f3cee9bba")
+	)
+	(pad "2" smd roundrect
+		(at 2.465 0)
+		(size 1.78 3.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.222222)
+		(uuid "0a2c2104-4e5a-4e38-9f36-7f497dc0580d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,86 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-07T22:48:51",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.1",
+    "sheets": [
+        {
+            "path": "/00_power/",
+            "uuid_path": "/945618ef-cff8-531b-a763-3d3a6e30577b/2d235e57-b2be-5879-8871-38b219810dcd",
+            "violations": []
+        },
+        {
+            "path": "/01_processor/",
+            "uuid_path": "/945618ef-cff8-531b-a763-3d3a6e30577b/b2ff6c09-d596-566b-bc72-6846fb262b25",
+            "violations": []
+        },
+        {
+            "path": "/02_usb/",
+            "uuid_path": "/945618ef-cff8-531b-a763-3d3a6e30577b/d536e1d7-6067-5530-8413-743f0e0b7fec",
+            "violations": []
+        },
+        {
+            "path": "/03_display/",
+            "uuid_path": "/945618ef-cff8-531b-a763-3d3a6e30577b/d79ed958-c85e-51d9-8111-d20347580243",
+            "violations": []
+        },
+        {
+            "path": "/04_audio/",
+            "uuid_path": "/945618ef-cff8-531b-a763-3d3a6e30577b/d764b927-cacc-56b9-a135-d6487ebb7cae",
+            "violations": []
+        },
+        {
+            "path": "/05_microphone/",
+            "uuid_path": "/945618ef-cff8-531b-a763-3d3a6e30577b/c5fd1299-1a14-51d3-ba7c-91b684674e8c",
+            "violations": []
+        },
+        {
+            "path": "/06_buttons/",
+            "uuid_path": "/945618ef-cff8-531b-a763-3d3a6e30577b/18a24bff-c187-5333-82bc-ba4dbeaff54c",
+            "violations": []
+        },
+        {
+            "path": "/07_storage/",
+            "uuid_path": "/945618ef-cff8-531b-a763-3d3a6e30577b/3f7cf477-9ec5-55cc-9999-d7e081a963b9",
+            "violations": []
+        },
+        {
+            "path": "/09_expansion/",
+            "uuid_path": "/945618ef-cff8-531b-a763-3d3a6e30577b/63c44e31-cc91-569a-b924-1eef93c88caf",
+            "violations": []
+        },
+        {
+            "path": "/10_debug/",
+            "uuid_path": "/945618ef-cff8-531b-a763-3d3a6e30577b/ab35258a-c2a7-5b1b-ad42-32b85d890e74",
+            "violations": []
+        },
+        {
+            "path": "/",
+            "uuid_path": "/945618ef-cff8-531b-a763-3d3a6e30577b",
+            "violations": []
+        }
+    ],
+    "source": "nexus-pear-reva.kicad_sch"
+}

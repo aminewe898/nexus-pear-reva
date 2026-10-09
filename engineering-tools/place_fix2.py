@@ -1,0 +1,2 @@
+from pathlib import Path
+s=Path('work/build_design_fixed.py').read_text();i=s.index('# Schematic source');s=s[:i]+"extra2={'R34':(73,114),'U9':(63,115),'C23':(68,118),'U3':(56.5,116.5),'C9':(66.7,43),'TP4':(47,77),'TP3':(52,84),'TP1':(33,109),'F1':(39,110),'C6':(33,104),'R42':(44,107),'R33':(62,111),'SW7':(84,110)}\nfor d in parts:\n if d['ref'] in extra2:d['xy']=extra2[d['ref']]\n"+s[i:];Path('work/build_design_fixed.py').write_text(s)

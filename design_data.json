@@ -1,0 +1,5178 @@
+{
+  "root_uuid": "945618ef-cff8-531b-a763-3d3a6e30577b",
+  "parts": [
+    {
+      "ref": "U1",
+      "value": "ESP32-S3-WROOM-1U-N16R8",
+      "footprint": "RF_Module:ESP32-S3-WROOM-1U",
+      "pins": [
+        {
+          "num": "1",
+          "name": "GND",
+          "net": "GND",
+          "type": "power_in"
+        },
+        {
+          "num": "2",
+          "name": "3V3",
+          "net": "+3V3",
+          "type": "power_in"
+        },
+        {
+          "num": "3",
+          "name": "EN",
+          "net": "EN",
+          "type": "input"
+        },
+        {
+          "num": "4",
+          "name": "IO4",
+          "net": "LCD_MOSI",
+          "type": "bidirectional"
+        },
+        {
+          "num": "5",
+          "name": "IO5",
+          "net": null,
+          "type": "bidirectional"
+        },
+        {
+          "num": "6",
+          "name": "IO6",
+          "net": "LCD_CS",
+          "type": "bidirectional"
+        },
+        {
+          "num": "7",
+          "name": "IO7",
+          "net": "LCD_BL",
+          "type": "bidirectional"
+        },
+        {
+          "num": "8",
+          "name": "IO15",
+          "net": "I2C_SCL",
+          "type": "bidirectional"
+        },
+        {
+          "num": "9",
+          "name": "IO16",
+          "net": "I2C_SDA",
+          "type": "bidirectional"
+        },
+        {
+          "num": "10",
+          "name": "IO17",
+          "net": "I2S_BCLK_SRC",
+          "type": "bidirectional"
+        },
+        {
+          "num": "11",
+          "name": "IO18",
+          "net": "I2S_WS_SRC",
+          "type": "bidirectional"
+        },
+        {
+          "num": "12",
+          "name": "IO8",
+          "net": "TP_RST",
+          "type": "bidirectional"
+        },
+        {
+          "num": "13",
+          "name": "USB_D-",
+          "net": "USB_DM",
+          "type": "bidirectional"
+        },
+        {
+          "num": "14",
+          "name": "USB_D+",
+          "net": "USB_DP",
+          "type": "bidirectional"
+        },
+        {
+          "num": "15",
+          "name": "IO3",
+          "net": null,
+          "type": "bidirectional"
+        },
+        {
+          "num": "16",
+          "name": "IO46",
+          "net": null,
+          "type": "bidirectional"
+        },
+        {
+          "num": "17",
+          "name": "IO9",
+          "net": "TP_INT",
+          "type": "bidirectional"
+        },
+        {
+          "num": "18",
+          "name": "IO10",
+          "net": "LCD_MISO",
+          "type": "bidirectional"
+        },
+        {
+          "num": "19",
+          "name": "IO11",
+          "net": null,
+          "type": "bidirectional"
+        },
+        {
+          "num": "20",
+          "name": "IO12",
+          "net": "LCD_SCLK_SRC",
+          "type": "bidirectional"
+        },
+        {
+          "num": "21",
+          "name": "IO13",
+          "net": "LCD_DC_SRC",
+          "type": "bidirectional"
+        },
+        {
+          "num": "22",
+          "name": "IO14",
+          "net": "LCD_RST",
+          "type": "bidirectional"
+        },
+        {
+          "num": "23",
+          "name": "IO21",
+          "net": "I2S_TX_SRC",
+          "type": "bidirectional"
+        },
+        {
+          "num": "24",
+          "name": "IO47",
+          "net": "MIC_DATA",
+          "type": "bidirectional"
+        },
+        {
+          "num": "25",
+          "name": "IO48",
+          "net": "STATUS",
+          "type": "bidirectional"
+        },
+        {
+          "num": "26",
+          "name": "IO45",
+          "net": null,
+          "type": "bidirectional"
+        },
+        {
+          "num": "27",
+          "name": "IO0",
+          "net": "BOOT",
+          "type": "bidirectional"
+        },
+        {
+          "num": "28",
+          "name": "IO35",
+          "net": null,
+          "type": "bidirectional"
+        },
+        {
+          "num": "29",
+          "name": "IO36",
+          "net": null,
+          "type": "bidirectional"
+        },
+        {
+          "num": "30",
+          "name": "IO37",
+          "net": null,
+          "type": "bidirectional"
+        },
+        {
+          "num": "31",
+          "name": "IO38",
+          "net": "PERIPH_EN",
+          "type": "bidirectional"
+        },
+        {
+          "num": "32",
+          "name": "IO39",
+          "net": "SD_SCK_SRC",
+          "type": "bidirectional"
+        },
+        {
+          "num": "33",
+          "name": "IO40",
+          "net": "SD_MOSI_SRC",
+          "type": "bidirectional"
+        },
+        {
+          "num": "34",
+          "name": "IO41",
+          "net": "SD_MISO",
+          "type": "bidirectional"
+        },
+        {
+          "num": "35",
+          "name": "IO42",
+          "net": "SD_CS",
+          "type": "bidirectional"
+        },
+        {
+          "num": "36",
+          "name": "RXD0",
+          "net": "UART_RX",
+          "type": "bidirectional"
+        },
+        {
+          "num": "37",
+          "name": "TXD0",
+          "net": "UART_TX",
+          "type": "bidirectional"
+        },
+        {
+          "num": "38",
+          "name": "IO2",
+          "net": null,
+          "type": "bidirectional"
+        },
+        {
+          "num": "39",
+          "name": "IO1",
+          "net": "KEY_ADC",
+          "type": "bidirectional"
+        },
+        {
+          "num": "40",
+          "name": "GND",
+          "net": "GND",
+          "type": "passive"
+        },
+        {
+          "num": "41",
+          "name": "GND",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "01_processor",
+      "xy": [
+        62.0,
+        96.0
+      ],
+      "mpn": "ESP32-S3-WROOM-1U-N16R8",
+      "manufacturer": "Espressif",
+      "datasheet": "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+      "notes": "Manufacturer pin table checked; GPIO35/36/37 reserved for octal PSRAM. External RF socket.",
+      "unit_cost": 5.94,
+      "availability": "DigiKey Spain 0; Mouser listing reports stock but not live-confirmed",
+      "angle": 0.0,
+      "uuid": "91cbfd96-b641-5aa0-bc04-94ead8be5584",
+      "sch_xy": [
+        64.77,
+        72.39
+      ],
+      "sheet_uuid": "b2ff6c09-d596-566b-bc72-6846fb262b25"
+    },
+    {
+      "ref": "R1",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "EN",
+          "type": "passive"
+        }
+      ],
+      "sheet": "01_processor",
+      "xy": [
+        74.0,
+        91.0
+      ],
+      "mpn": "RC0805FR-0710KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "dc12a68e-dc03-570a-9c99-87fd33c64957",
+      "sch_xy": [
+        64.77,
+        127.0
+      ],
+      "sheet_uuid": "b2ff6c09-d596-566b-bc72-6846fb262b25"
+    },
+    {
+      "ref": "C1",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "EN",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "01_processor",
+      "xy": [
+        78.0,
+        91.0
+      ],
+      "mpn": "GRM21BR71A105KA01L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "Ceramic; exact DC-bias and sourcing review pending; do not substitute voltage rating blindly",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "b3d9648e-380d-54b9-946c-88a09a9be488",
+      "sch_xy": [
+        64.77,
+        156.21
+      ],
+      "sheet_uuid": "b2ff6c09-d596-566b-bc72-6846fb262b25"
+    },
+    {
+      "ref": "C2",
+      "value": "22u",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "01_processor",
+      "xy": [
+        49.0,
+        93.0
+      ],
+      "mpn": "GRM31CR61A226KE19L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "Ceramic; exact DC-bias and sourcing review pending; do not substitute voltage rating blindly",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 180.0,
+      "uuid": "e38fe48b-57a7-56dc-84c8-363069278340",
+      "sch_xy": [
+        64.77,
+        185.42000000000002
+      ],
+      "sheet_uuid": "b2ff6c09-d596-566b-bc72-6846fb262b25"
+    },
+    {
+      "ref": "C3",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "01_processor",
+      "xy": [
+        49.0,
+        90.0
+      ],
+      "mpn": "GRM21BR71H104KA01L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "Ceramic; exact DC-bias and sourcing review pending; do not substitute voltage rating blindly",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 180.0,
+      "uuid": "36cbd9b1-65e0-5fbc-bb44-09a84f15009b",
+      "sch_xy": [
+        64.77,
+        215.9
+      ],
+      "sheet_uuid": "b2ff6c09-d596-566b-bc72-6846fb262b25"
+    },
+    {
+      "ref": "R2",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "BOOT",
+          "type": "passive"
+        }
+      ],
+      "sheet": "01_processor",
+      "xy": [
+        74.0,
+        95.0
+      ],
+      "mpn": "RC0805FR-0710KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "58873f3c-b67f-5a7c-956d-910627e356a5",
+      "sch_xy": [
+        64.77,
+        245.11
+      ],
+      "sheet_uuid": "b2ff6c09-d596-566b-bc72-6846fb262b25"
+    },
+    {
+      "ref": "J1",
+      "value": "USB-C 5V / USB2 FS",
+      "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "pins": [
+        {
+          "num": "A1",
+          "name": "GND",
+          "net": "GND",
+          "type": "passive"
+        },
+        {
+          "num": "A4",
+          "name": "VBUS",
+          "net": "VBUS",
+          "type": "passive"
+        },
+        {
+          "num": "A5",
+          "name": "CC1",
+          "net": "CC1",
+          "type": "passive"
+        },
+        {
+          "num": "A6",
+          "name": "D+",
+          "net": "USB_DP_CONN",
+          "type": "passive"
+        },
+        {
+          "num": "A7",
+          "name": "D-",
+          "net": "USB_DM_CONN",
+          "type": "passive"
+        },
+        {
+          "num": "A8",
+          "name": "SBU1",
+          "net": null,
+          "type": "passive"
+        },
+        {
+          "num": "A9",
+          "name": "VBUS",
+          "net": "VBUS",
+          "type": "passive"
+        },
+        {
+          "num": "A12",
+          "name": "GND",
+          "net": "GND",
+          "type": "passive"
+        },
+        {
+          "num": "B1",
+          "name": "GND",
+          "net": "GND",
+          "type": "passive"
+        },
+        {
+          "num": "B4",
+          "name": "VBUS",
+          "net": "VBUS",
+          "type": "passive"
+        },
+        {
+          "num": "B5",
+          "name": "CC2",
+          "net": "CC2",
+          "type": "passive"
+        },
+        {
+          "num": "B6",
+          "name": "D+",
+          "net": "USB_DP_CONN",
+          "type": "passive"
+        },
+        {
+          "num": "B7",
+          "name": "D-",
+          "net": "USB_DM_CONN",
+          "type": "passive"
+        },
+        {
+          "num": "B8",
+          "name": "SBU2",
+          "net": null,
+          "type": "passive"
+        },
+        {
+          "num": "B9",
+          "name": "VBUS",
+          "net": "VBUS",
+          "type": "passive"
+        },
+        {
+          "num": "B12",
+          "name": "GND",
+          "net": "GND",
+          "type": "passive"
+        },
+        {
+          "num": "SH",
+          "name": "SHIELD",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "02_usb",
+      "xy": [
+        48.0,
+        117.4
+      ],
+      "mpn": "USB4105-GF-A",
+      "manufacturer": "GCT",
+      "datasheet": "https://gct.co/files/drawings/usb4105.pdf",
+      "notes": "Fixed sink; no PD, no host; shield bonded to ground. Exact footprint requires final dimension audit.",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "a64857f0-f3d6-57d5-9efd-5e8211d5d299",
+      "sch_xy": [
+        64.77,
+        57.15
+      ],
+      "sheet_uuid": "d536e1d7-6067-5530-8413-743f0e0b7fec"
+    },
+    {
+      "ref": "R7",
+      "value": "22",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "USB_DP_CONN",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "USB_DP",
+          "type": "passive"
+        }
+      ],
+      "sheet": "02_usb",
+      "xy": [
+        48.0,
+        104.1
+      ],
+      "mpn": "RC0805FR-0722RL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "220057d4-c37c-569d-9657-accc8c4cb8c8",
+      "sch_xy": [
+        64.77,
+        96.52
+      ],
+      "sheet_uuid": "d536e1d7-6067-5530-8413-743f0e0b7fec"
+    },
+    {
+      "ref": "R8",
+      "value": "22",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "USB_DM_CONN",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "USB_DM",
+          "type": "passive"
+        }
+      ],
+      "sheet": "02_usb",
+      "xy": [
+        48.0,
+        101.5
+      ],
+      "mpn": "RC0805FR-0722RL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "0480df8a-d3d1-5c7b-8d08-26fba6b3b216",
+      "sch_xy": [
+        64.77,
+        125.73
+      ],
+      "sheet_uuid": "d536e1d7-6067-5530-8413-743f0e0b7fec"
+    },
+    {
+      "ref": "U2",
+      "value": "USBLC6-2SC6",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "pins": [
+        {
+          "num": "1",
+          "name": "IO1",
+          "net": "USB_DP_CONN",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "GND",
+          "net": "GND",
+          "type": "passive"
+        },
+        {
+          "num": "3",
+          "name": "IO2",
+          "net": "USB_DM_CONN",
+          "type": "passive"
+        },
+        {
+          "num": "4",
+          "name": "IO2",
+          "net": "USB_DM_CONN",
+          "type": "passive"
+        },
+        {
+          "num": "5",
+          "name": "VBUS",
+          "net": "+5V",
+          "type": "passive"
+        },
+        {
+          "num": "6",
+          "name": "IO1",
+          "net": "USB_DP_CONN",
+          "type": "passive"
+        }
+      ],
+      "sheet": "02_usb",
+      "xy": [
+        48.0,
+        110.0
+      ],
+      "mpn": "USBLC6-2SC6",
+      "manufacturer": "STMicroelectronics",
+      "datasheet": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+      "notes": "USB data ESD; bias from protected main 5V, not raw VBUS",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "746aac8c-b4eb-5bca-99f0-fa9b37a0d75c",
+      "sch_xy": [
+        64.77,
+        156.21
+      ],
+      "sheet_uuid": "d536e1d7-6067-5530-8413-743f0e0b7fec"
+    },
+    {
+      "ref": "U3",
+      "value": "PESD5V0S2BT CC ESD",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "pins": [
+        {
+          "num": "1",
+          "name": "LINE1",
+          "net": "CC1",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "LINE2",
+          "net": "CC2",
+          "type": "passive"
+        },
+        {
+          "num": "3",
+          "name": "COMMON",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "02_usb",
+      "xy": [
+        56.5,
+        116.5
+      ],
+      "mpn": "PESD5V0S2BT,215",
+      "manufacturer": "Nexperia",
+      "datasheet": "https://assets.nexperia.com/documents/data-sheet/PESD5V0S2BT.pdf",
+      "notes": "Ground-referenced CC ESD; no rail injection. Not a 20V CC-to-VBUS short protector.",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "a26eeb91-d7a7-5046-b068-b37b54c29f04",
+      "sch_xy": [
+        64.77,
+        187.96
+      ],
+      "sheet_uuid": "d536e1d7-6067-5530-8413-743f0e0b7fec"
+    },
+    {
+      "ref": "F1",
+      "value": "3A / 24V PTC",
+      "footprint": "Fuse:Fuse_1812_4532Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "IN",
+          "net": "VBUS",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "OUT",
+          "net": "+5V_FUSED",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        39.0,
+        110.0
+      ],
+      "mpn": "1812L300/24SLER",
+      "manufacturer": "Littelfuse",
+      "datasheet": "https://www.littelfuse.com/assetdocs/low-rho-datasheet-update?assetguid=b786faf0-de16-4763-9d22-6b8080943caf",
+      "notes": "Manufacturer Low Rho table: 3A hold, 24V, R1max30mOhm; recommended pads 1.78x3.45mm, 3.15mm inner gap. Derates to 2.45A at40C and1.85A at60C.",
+      "unit_cost": 2.63,
+      "availability": "DigiKey page 7549 in stock; checked 2026-10-07",
+      "angle": 0.0,
+      "uuid": "99349615-0ea5-54ae-b993-b00f0e9ff9f5",
+      "sch_xy": [
+        64.77,
+        48.26
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd",
+      "currency": "USD",
+      "supplier": "DigiKey",
+      "supplier_sku": "18-1812L300/24SLERCT-ND",
+      "quote_url": "https://www.digikey.com/en/products/detail/littelfuse-inc/1812L300-24SLER/12807021"
+    },
+    {
+      "ref": "C6",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+5V_FUSED",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        32.4,
+        104.0
+      ],
+      "mpn": "GRM21BR71H104KA01L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "50V X7R raw input decoupling; upstream capacitance below 1uF",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "35a18b40-7870-59c5-a3f5-c21aea730577",
+      "sch_xy": [
+        64.77,
+        78.74
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "U4",
+      "value": "TPS25940LRVCR eFuse",
+      "footprint": "Package_DFN_QFN:Texas_RVC0020A_WQFN-20-1EP_3x4mm_P0.5mm_EP1.6x2.6mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "DEVSLP",
+          "net": "GND",
+          "type": "input"
+        },
+        {
+          "num": "2",
+          "name": "PGOOD",
+          "net": "POWER_GOOD",
+          "type": "open_collector"
+        },
+        {
+          "num": "3",
+          "name": "PGTH",
+          "net": "PGTH",
+          "type": "input"
+        },
+        {
+          "num": "4",
+          "name": "OUT",
+          "net": "+5V",
+          "type": "power_out"
+        },
+        {
+          "num": "5",
+          "name": "OUT",
+          "net": "+5V",
+          "type": "passive"
+        },
+        {
+          "num": "6",
+          "name": "OUT",
+          "net": "+5V",
+          "type": "passive"
+        },
+        {
+          "num": "7",
+          "name": "OUT",
+          "net": "+5V",
+          "type": "passive"
+        },
+        {
+          "num": "8",
+          "name": "OUT",
+          "net": "+5V",
+          "type": "passive"
+        },
+        {
+          "num": "9",
+          "name": "IN",
+          "net": "+5V_FUSED",
+          "type": "power_in"
+        },
+        {
+          "num": "10",
+          "name": "IN",
+          "net": "+5V_FUSED",
+          "type": "power_in"
+        },
+        {
+          "num": "11",
+          "name": "IN",
+          "net": "+5V_FUSED",
+          "type": "power_in"
+        },
+        {
+          "num": "12",
+          "name": "IN",
+          "net": "+5V_FUSED",
+          "type": "power_in"
+        },
+        {
+          "num": "13",
+          "name": "IN",
+          "net": "+5V_FUSED",
+          "type": "power_in"
+        },
+        {
+          "num": "14",
+          "name": "EN_UVLO",
+          "net": "EFUSE_EN",
+          "type": "input"
+        },
+        {
+          "num": "15",
+          "name": "OVP",
+          "net": "OVP",
+          "type": "input"
+        },
+        {
+          "num": "16",
+          "name": "GND",
+          "net": "GND",
+          "type": "power_in"
+        },
+        {
+          "num": "17",
+          "name": "ILIM",
+          "net": "ILIM",
+          "type": "passive"
+        },
+        {
+          "num": "18",
+          "name": "dVdT",
+          "net": "SLEW",
+          "type": "passive"
+        },
+        {
+          "num": "19",
+          "name": "IMON",
+          "net": "IMON",
+          "type": "output"
+        },
+        {
+          "num": "20",
+          "name": "FLT",
+          "net": "POWER_FAULT",
+          "type": "open_collector"
+        },
+        {
+          "num": "21",
+          "name": "EP",
+          "net": "GND",
+          "type": "power_in"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        38.0,
+        100.0
+      ],
+      "mpn": "TPS25940LRVCR",
+      "manufacturer": "Texas Instruments",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tps25940.pdf",
+      "notes": "Latched eFuse: reverse blocking, UVLO, OVP, ~2.56A limit, controlled rise; only enabled on 3A advertisement",
+      "unit_cost": null,
+      "availability": "Mouser indexed 5963; live cart required",
+      "angle": 0.0,
+      "uuid": "5963ed9a-617a-5751-b8f4-b2cc1126594b",
+      "sch_xy": [
+        64.77,
+        119.38
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "C8",
+      "value": "10u",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+5V",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        61.0,
+        47.0
+      ],
+      "mpn": "GRM31CR61A106KA01L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "Ceramic; exact DC-bias and sourcing review pending; do not substitute voltage rating blindly",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 180.0,
+      "uuid": "969f1f0f-c0b7-503e-8f3a-d5a90816ffab",
+      "sch_xy": [
+        64.77,
+        160.02
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "U5",
+      "value": "AP63203WU-7 3V3 buck",
+      "footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+      "pins": [
+        {
+          "num": "1",
+          "name": "FB",
+          "net": "+3V3",
+          "type": "input"
+        },
+        {
+          "num": "2",
+          "name": "EN",
+          "net": "+5V",
+          "type": "input"
+        },
+        {
+          "num": "3",
+          "name": "VIN",
+          "net": "+5V",
+          "type": "power_in"
+        },
+        {
+          "num": "4",
+          "name": "GND",
+          "net": "GND",
+          "type": "power_in"
+        },
+        {
+          "num": "5",
+          "name": "SW",
+          "net": "SW_NODE",
+          "type": "passive"
+        },
+        {
+          "num": "6",
+          "name": "BST",
+          "net": "BST",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        66.0,
+        47.0
+      ],
+      "mpn": "AP63203WU-7",
+      "manufacturer": "Diodes Incorporated",
+      "datasheet": "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf",
+      "notes": "2A fixed 3.3V. Sourcing contradictory; not release-qualified.",
+      "unit_cost": 0.765,
+      "availability": "Mouser Spain 0; Europe cached listing reports 17010; live reconfirmation required",
+      "angle": 0.0,
+      "uuid": "9d46a44c-7028-5075-a3a2-fbe7fe9a7093",
+      "sch_xy": [
+        64.77,
+        191.77
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "C9",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "BST",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "SW_NODE",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        66.0,
+        43.0
+      ],
+      "mpn": "GRM21BR71H104KA01L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "Ceramic; exact DC-bias and sourcing review pending; do not substitute voltage rating blindly",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 180.0,
+      "uuid": "da94b3cd-7f40-5deb-9114-4f6dc94cc6d6",
+      "sch_xy": [
+        64.77,
+        222.25
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "L1",
+      "value": "3.9uH",
+      "footprint": "Inductor_SMD:L_Bourns-SRN6028",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "SW_NODE",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "+3V3",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        72.0,
+        48.0
+      ],
+      "mpn": "SRN6028C-3R9M",
+      "manufacturer": "Bourns",
+      "datasheet": "https://www.bourns.com/data/global/pdfs/SRN6028C.pdf",
+      "notes": "Bourns C-series recommended pads 2.0x6.5mm, center spacing 4.5mm; local native snapshot corrected against manufacturer drawing.",
+      "unit_cost": null,
+      "availability": "DigiKey listing found, quantity/price not extracted",
+      "angle": 0.0,
+      "uuid": "217e6bca-3828-56d4-847b-a7bb40a4d717",
+      "sch_xy": [
+        162.56,
+        48.26
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "C10",
+      "value": "22u",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        78.0,
+        46.0
+      ],
+      "mpn": "GRM31CR61A226KE19L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "Ceramic; exact DC-bias and sourcing review pending; do not substitute voltage rating blindly",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "c6a3c819-003f-56d6-a0e0-fb5dd8c711c2",
+      "sch_xy": [
+        162.56,
+        78.74
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "C11",
+      "value": "22u",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        78.0,
+        50.0
+      ],
+      "mpn": "GRM31CR61A226KE19L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "Ceramic; exact DC-bias and sourcing review pending; do not substitute voltage rating blindly",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "4061c751-c03d-5ec0-9949-ac46be80ebf7",
+      "sch_xy": [
+        162.56,
+        107.95
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "R9",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "PERIPH_EN",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "04_audio",
+      "xy": [
+        57.0,
+        74.0
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "37ebe2c9-421a-5885-b401-928afd202853",
+      "sch_xy": [
+        64.77,
+        48.26
+      ],
+      "sheet_uuid": "d764b927-cacc-56b9-a135-d6487ebb7cae"
+    },
+    {
+      "ref": "C14",
+      "value": "22u",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+5V",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "04_audio",
+      "xy": [
+        44.0,
+        76.0
+      ],
+      "mpn": "GRM31CR61A226KE19L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "Ceramic; exact DC-bias and sourcing review pending; do not substitute voltage rating blindly",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "22a47411-7ca5-53cf-b21d-4b0211dadac0",
+      "sch_xy": [
+        64.77,
+        78.74
+      ],
+      "sheet_uuid": "d764b927-cacc-56b9-a135-d6487ebb7cae"
+    },
+    {
+      "ref": "C15",
+      "value": "22u",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "03_display",
+      "xy": [
+        99.0,
+        48.0
+      ],
+      "mpn": "GRM31CR61A226KE19L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "Ceramic; exact DC-bias and sourcing review pending; do not substitute voltage rating blindly",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "6595925a-2f4e-5632-9551-d3186767e7e5",
+      "sch_xy": [
+        64.77,
+        48.26
+      ],
+      "sheet_uuid": "d79ed958-c85e-51d9-8111-d20347580243"
+    },
+    {
+      "ref": "J2",
+      "value": "WAVESHARE 29318 GH15",
+      "footprint": "Connector_JST:JST_GH_SM15B-GHS-TB_1x15-1MP_P1.25mm_Horizontal",
+      "pins": [
+        {
+          "num": "1",
+          "name": "+3V3",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "+3V3",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "3",
+          "name": "GND",
+          "net": "GND",
+          "type": "passive"
+        },
+        {
+          "num": "4",
+          "name": "LCD_MISO",
+          "net": "LCD_MISO",
+          "type": "passive"
+        },
+        {
+          "num": "5",
+          "name": "LCD_MOSI",
+          "net": "LCD_MOSI",
+          "type": "passive"
+        },
+        {
+          "num": "6",
+          "name": "LCD_SCLK",
+          "net": "LCD_SCLK",
+          "type": "passive"
+        },
+        {
+          "num": "7",
+          "name": "DISPLAY_SD_CS",
+          "net": "DISPLAY_SD_CS",
+          "type": "passive"
+        },
+        {
+          "num": "8",
+          "name": "LCD_CS",
+          "net": "LCD_CS",
+          "type": "passive"
+        },
+        {
+          "num": "9",
+          "name": "LCD_DC",
+          "net": "LCD_DC",
+          "type": "passive"
+        },
+        {
+          "num": "10",
+          "name": "LCD_RST",
+          "net": "LCD_RST",
+          "type": "passive"
+        },
+        {
+          "num": "11",
+          "name": "LCD_BL",
+          "net": "LCD_BL",
+          "type": "passive"
+        },
+        {
+          "num": "12",
+          "name": "I2C_SDA",
+          "net": "I2C_SDA",
+          "type": "passive"
+        },
+        {
+          "num": "13",
+          "name": "I2C_SCL",
+          "net": "I2C_SCL",
+          "type": "passive"
+        },
+        {
+          "num": "14",
+          "name": "TP_INT",
+          "net": "TP_INT",
+          "type": "passive"
+        },
+        {
+          "num": "15",
+          "name": "TP_RST",
+          "net": "TP_RST",
+          "type": "passive"
+        },
+        {
+          "num": "MP",
+          "name": "MOUNT",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "03_display",
+      "xy": [
+        105.0,
+        40.0
+      ],
+      "mpn": "SM15B-GHS-TB(LF)(SN)",
+      "manufacturer": "JST",
+      "datasheet": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+      "notes": "GH15 straight-through harness, 3.3V mode; mate GHR-15V-S and SSHL-002T-P0.2. No 5V on either supply pin.",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "c93a3005-52fa-5a00-998e-31141f416b09",
+      "sch_xy": [
+        64.77,
+        86.36
+      ],
+      "sheet_uuid": "d79ed958-c85e-51d9-8111-d20347580243"
+    },
+    {
+      "ref": "R10",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "LCD_SCLK_SRC",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "LCD_SCLK",
+          "type": "passive"
+        }
+      ],
+      "sheet": "03_display",
+      "xy": [
+        94.0,
+        48.0
+      ],
+      "mpn": "RC0805FR-0733RL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "25258a56-8391-5c64-b3b5-5a3d20fa3e75",
+      "sch_xy": [
+        64.77,
+        123.19
+      ],
+      "sheet_uuid": "d79ed958-c85e-51d9-8111-d20347580243"
+    },
+    {
+      "ref": "R11",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "LCD_DC_SRC",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "LCD_DC",
+          "type": "passive"
+        }
+      ],
+      "sheet": "03_display",
+      "xy": [
+        94.0,
+        52.0
+      ],
+      "mpn": "RC0805FR-0733RL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "a9a00379-f014-5a49-bfce-c2bdf1548621",
+      "sch_xy": [
+        64.77,
+        152.4
+      ],
+      "sheet_uuid": "d79ed958-c85e-51d9-8111-d20347580243"
+    },
+    {
+      "ref": "R13",
+      "value": "4.7k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "I2C_SCL",
+          "type": "passive"
+        }
+      ],
+      "sheet": "03_display",
+      "xy": [
+        90.0,
+        58.0
+      ],
+      "mpn": "RC0805FR-074K7L",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "6d7c3e07-165f-5e09-a1db-3bc95a4939d2",
+      "sch_xy": [
+        64.77,
+        182.88
+      ],
+      "sheet_uuid": "d79ed958-c85e-51d9-8111-d20347580243"
+    },
+    {
+      "ref": "R14",
+      "value": "4.7k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "I2C_SDA",
+          "type": "passive"
+        }
+      ],
+      "sheet": "03_display",
+      "xy": [
+        90.0,
+        62.0
+      ],
+      "mpn": "RC0805FR-074K7L",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "f7fe7809-296e-5a82-929d-7402b8845be6",
+      "sch_xy": [
+        64.77,
+        212.09
+      ],
+      "sheet_uuid": "d79ed958-c85e-51d9-8111-d20347580243"
+    },
+    {
+      "ref": "J3",
+      "value": "LEFT AMP HARNESS",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical",
+      "pins": [
+        {
+          "num": "1",
+          "name": "+5V_AUDIO",
+          "net": "+5V",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "GND",
+          "net": "GND",
+          "type": "passive"
+        },
+        {
+          "num": "3",
+          "name": "AMP_LEFT_SD",
+          "net": "AMP_LEFT_SD",
+          "type": "passive"
+        },
+        {
+          "num": "4",
+          "name": "UNUSED",
+          "net": null,
+          "type": "passive"
+        },
+        {
+          "num": "5",
+          "name": "I2S_TX",
+          "net": "AMP_TX",
+          "type": "passive"
+        },
+        {
+          "num": "6",
+          "name": "I2S_BCLK",
+          "net": "AMP_BCLK",
+          "type": "passive"
+        },
+        {
+          "num": "7",
+          "name": "I2S_WS",
+          "net": "AMP_WS",
+          "type": "passive"
+        }
+      ],
+      "sheet": "04_audio",
+      "xy": [
+        35.0,
+        64.0
+      ],
+      "mpn": "TSW-007-07-G-S",
+      "manufacturer": "Samtec",
+      "datasheet": "https://www.samtec.com/products/tsw",
+      "notes": "Carrier-side pin order only. Cable assembly and manufacturer drawing audit remain release gates.",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "905d3f54-663e-5228-a5b9-67e08b56cc12",
+      "sch_xy": [
+        64.77,
+        110.49
+      ],
+      "sheet_uuid": "d764b927-cacc-56b9-a135-d6487ebb7cae"
+    },
+    {
+      "ref": "J4",
+      "value": "RIGHT AMP HARNESS",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical",
+      "pins": [
+        {
+          "num": "1",
+          "name": "+5V_AUDIO",
+          "net": "+5V",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "GND",
+          "net": "GND",
+          "type": "passive"
+        },
+        {
+          "num": "3",
+          "name": "AMP_RIGHT_SD",
+          "net": "AMP_RIGHT_SD",
+          "type": "passive"
+        },
+        {
+          "num": "4",
+          "name": "UNUSED",
+          "net": null,
+          "type": "passive"
+        },
+        {
+          "num": "5",
+          "name": "I2S_TX",
+          "net": "AMP_TX",
+          "type": "passive"
+        },
+        {
+          "num": "6",
+          "name": "I2S_BCLK",
+          "net": "AMP_BCLK",
+          "type": "passive"
+        },
+        {
+          "num": "7",
+          "name": "I2S_WS",
+          "net": "AMP_WS",
+          "type": "passive"
+        }
+      ],
+      "sheet": "04_audio",
+      "xy": [
+        52.0,
+        66.0
+      ],
+      "mpn": "TSW-007-07-G-S",
+      "manufacturer": "Samtec",
+      "datasheet": "https://www.samtec.com/products/tsw",
+      "notes": "Carrier-side pin order only. Cable assembly and manufacturer drawing audit remain release gates.",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "fd0b658e-4749-5ac4-9215-0adcaeea61da",
+      "sch_xy": [
+        64.77,
+        144.78
+      ],
+      "sheet_uuid": "d764b927-cacc-56b9-a135-d6487ebb7cae"
+    },
+    {
+      "ref": "R15",
+      "value": "82k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+5V",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "AMP_LEFT_SD",
+          "type": "passive"
+        }
+      ],
+      "sheet": "04_audio",
+      "xy": [
+        36.0,
+        59.0
+      ],
+      "mpn": "RC0805FR-0782KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "e29e277e-4229-51cc-b1c8-1149741b562a",
+      "sch_xy": [
+        64.77,
+        177.8
+      ],
+      "sheet_uuid": "d764b927-cacc-56b9-a135-d6487ebb7cae"
+    },
+    {
+      "ref": "R16",
+      "value": "560k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+5V",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "AMP_RIGHT_SD",
+          "type": "passive"
+        }
+      ],
+      "sheet": "04_audio",
+      "xy": [
+        51.0,
+        61.0
+      ],
+      "mpn": "RC0805FR-07560KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "c6fdb255-baeb-57e0-a6a6-e5d0cc6ab349",
+      "sch_xy": [
+        64.77,
+        207.01
+      ],
+      "sheet_uuid": "d764b927-cacc-56b9-a135-d6487ebb7cae"
+    },
+    {
+      "ref": "R17",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "AMP_BCLK_BUF",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "AMP_BCLK",
+          "type": "passive"
+        }
+      ],
+      "sheet": "04_audio",
+      "xy": [
+        63.0,
+        71.0
+      ],
+      "mpn": "RC0805FR-0733RL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "be78db6a-75cc-5897-93e9-76aac8fb8a05",
+      "sch_xy": [
+        64.77,
+        236.22
+      ],
+      "sheet_uuid": "d764b927-cacc-56b9-a135-d6487ebb7cae"
+    },
+    {
+      "ref": "R18",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "AMP_WS_BUF",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "AMP_WS",
+          "type": "passive"
+        }
+      ],
+      "sheet": "04_audio",
+      "xy": [
+        63.0,
+        74.0
+      ],
+      "mpn": "RC0805FR-0733RL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "91aa5bed-71de-5ee9-807a-49472c7d586f",
+      "sch_xy": [
+        162.56,
+        48.26
+      ],
+      "sheet_uuid": "d764b927-cacc-56b9-a135-d6487ebb7cae"
+    },
+    {
+      "ref": "R19",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "AMP_TX_BUF",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "AMP_TX",
+          "type": "passive"
+        }
+      ],
+      "sheet": "04_audio",
+      "xy": [
+        63.0,
+        77.0
+      ],
+      "mpn": "RC0805FR-0733RL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "b77e20b2-b2b0-54af-8aaf-beeb8292bb3f",
+      "sch_xy": [
+        162.56,
+        78.74
+      ],
+      "sheet_uuid": "d764b927-cacc-56b9-a135-d6487ebb7cae"
+    },
+    {
+      "ref": "J5",
+      "value": "MIC HARNESS",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+      "pins": [
+        {
+          "num": "1",
+          "name": "+3V3",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "GND",
+          "net": "GND",
+          "type": "passive"
+        },
+        {
+          "num": "3",
+          "name": "I2S_BCLK",
+          "net": "MIC_BCLK",
+          "type": "passive"
+        },
+        {
+          "num": "4",
+          "name": "MIC_DATA",
+          "net": "MIC_DATA",
+          "type": "passive"
+        },
+        {
+          "num": "5",
+          "name": "I2S_WS",
+          "net": "MIC_WS",
+          "type": "passive"
+        },
+        {
+          "num": "6",
+          "name": "GND",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "05_microphone",
+      "xy": [
+        35.0,
+        39.0
+      ],
+      "mpn": "TSW-006-07-G-S",
+      "manufacturer": "Samtec",
+      "datasheet": "https://www.samtec.com/products/tsw",
+      "notes": "Carrier-side pin order only. Cable assembly and manufacturer drawing audit remain release gates.",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "897248e9-bb2c-5183-907b-9fce4ca32124",
+      "sch_xy": [
+        64.77,
+        49.53
+      ],
+      "sheet_uuid": "c5fd1299-1a14-51d3-ba7c-91b684674e8c"
+    },
+    {
+      "ref": "C16",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "05_microphone",
+      "xy": [
+        41.0,
+        47.0
+      ],
+      "mpn": "GRM21BR71H104KA01L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "Ceramic; exact DC-bias and sourcing review pending; do not substitute voltage rating blindly",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "f001f122-0171-5ace-b1d9-e8876153d6c4",
+      "sch_xy": [
+        64.77,
+        81.28
+      ],
+      "sheet_uuid": "c5fd1299-1a14-51d3-ba7c-91b684674e8c"
+    },
+    {
+      "ref": "C17",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "05_microphone",
+      "xy": [
+        41.0,
+        43.0
+      ],
+      "mpn": "GRM21BR71A105KA01L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "Ceramic; exact DC-bias and sourcing review pending; do not substitute voltage rating blindly",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "24f24d05-1f62-5605-812c-d6bf5b488d1f",
+      "sch_xy": [
+        64.77,
+        110.49
+      ],
+      "sheet_uuid": "c5fd1299-1a14-51d3-ba7c-91b684674e8c"
+    },
+    {
+      "ref": "R20",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "KEY_ADC",
+          "type": "passive"
+        }
+      ],
+      "sheet": "06_buttons",
+      "xy": [
+        90.0,
+        90.0
+      ],
+      "mpn": "RC0805FR-0710KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "cad75fc4-28b1-513c-9232-a192b4789ba3",
+      "sch_xy": [
+        64.77,
+        48.26
+      ],
+      "sheet_uuid": "18a24bff-c187-5333-82bc-ba4dbeaff54c"
+    },
+    {
+      "ref": "C18",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "KEY_ADC",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "06_buttons",
+      "xy": [
+        90.0,
+        92.5
+      ],
+      "mpn": "GRM21BR71H104KA01L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "Ceramic; exact DC-bias and sourcing review pending; do not substitute voltage rating blindly",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "f1c30972-35b4-5255-af48-457d052f917c",
+      "sch_xy": [
+        64.77,
+        78.74
+      ],
+      "sheet_uuid": "18a24bff-c187-5333-82bc-ba4dbeaff54c"
+    },
+    {
+      "ref": "SW1",
+      "value": "UP",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "A",
+          "net": "KEY_ADC",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "B",
+          "net": "KEY_UP",
+          "type": "passive"
+        }
+      ],
+      "sheet": "06_buttons",
+      "xy": [
+        107.0,
+        85.0
+      ],
+      "mpn": "B3F-1000",
+      "manufacturer": "Omron",
+      "datasheet": "https://components.omron.com/us-en/products/switches/B3F",
+      "notes": "6mm through-hole tact; verify actuator height and native pad fit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "da61bd77-3f7b-5815-9942-d08acef7d418",
+      "sch_xy": [
+        64.77,
+        107.95
+      ],
+      "sheet_uuid": "18a24bff-c187-5333-82bc-ba4dbeaff54c"
+    },
+    {
+      "ref": "R21",
+      "value": "0",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "KEY_UP",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "06_buttons",
+      "xy": [
+        116.0,
+        79.0
+      ],
+      "mpn": "RC0805JR-070RL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "Zero-ohm jumper; resistor tolerance code J, not F",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "7f0044f8-401b-5707-8cc5-bc348cd81665",
+      "sch_xy": [
+        64.77,
+        137.16
+      ],
+      "sheet_uuid": "18a24bff-c187-5333-82bc-ba4dbeaff54c"
+    },
+    {
+      "ref": "SW2",
+      "value": "DOWN",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "A",
+          "net": "KEY_ADC",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "B",
+          "net": "KEY_DOWN",
+          "type": "passive"
+        }
+      ],
+      "sheet": "06_buttons",
+      "xy": [
+        107.0,
+        105.0
+      ],
+      "mpn": "B3F-1000",
+      "manufacturer": "Omron",
+      "datasheet": "https://components.omron.com/us-en/products/switches/B3F",
+      "notes": "6mm through-hole tact; verify actuator height and native pad fit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "5ee69786-b23c-5daf-b584-b55215265132",
+      "sch_xy": [
+        64.77,
+        167.64000000000001
+      ],
+      "sheet_uuid": "18a24bff-c187-5333-82bc-ba4dbeaff54c"
+    },
+    {
+      "ref": "R22",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "KEY_DOWN",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "06_buttons",
+      "xy": [
+        120.0,
+        109.0
+      ],
+      "mpn": "RC0805FR-071KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "31c2a519-8c13-5072-986a-715774265341",
+      "sch_xy": [
+        64.77,
+        196.85
+      ],
+      "sheet_uuid": "18a24bff-c187-5333-82bc-ba4dbeaff54c"
+    },
+    {
+      "ref": "SW3",
+      "value": "LEFT",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "A",
+          "net": "KEY_ADC",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "B",
+          "net": "KEY_LEFT",
+          "type": "passive"
+        }
+      ],
+      "sheet": "06_buttons",
+      "xy": [
+        95.0,
+        95.0
+      ],
+      "mpn": "B3F-1000",
+      "manufacturer": "Omron",
+      "datasheet": "https://components.omron.com/us-en/products/switches/B3F",
+      "notes": "6mm through-hole tact; verify actuator height and native pad fit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "63ffbaaa-20b6-54c4-9ede-3b220865c9c5",
+      "sch_xy": [
+        64.77,
+        226.06
+      ],
+      "sheet_uuid": "18a24bff-c187-5333-82bc-ba4dbeaff54c"
+    },
+    {
+      "ref": "R23",
+      "value": "2.2k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "KEY_LEFT",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "06_buttons",
+      "xy": [
+        90.0,
+        95.0
+      ],
+      "mpn": "RC0805FR-072K2L",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "9bee244a-a167-5627-8563-8aa0c13f2a71",
+      "sch_xy": [
+        162.56,
+        48.26
+      ],
+      "sheet_uuid": "18a24bff-c187-5333-82bc-ba4dbeaff54c"
+    },
+    {
+      "ref": "SW4",
+      "value": "RIGHT",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "A",
+          "net": "KEY_ADC",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "B",
+          "net": "KEY_RIGHT",
+          "type": "passive"
+        }
+      ],
+      "sheet": "06_buttons",
+      "xy": [
+        119.0,
+        95.0
+      ],
+      "mpn": "B3F-1000",
+      "manufacturer": "Omron",
+      "datasheet": "https://components.omron.com/us-en/products/switches/B3F",
+      "notes": "6mm through-hole tact; verify actuator height and native pad fit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "97b2f038-f41d-5b43-9edb-32f1a2558463",
+      "sch_xy": [
+        162.56,
+        78.74
+      ],
+      "sheet_uuid": "18a24bff-c187-5333-82bc-ba4dbeaff54c"
+    },
+    {
+      "ref": "R24",
+      "value": "4.7k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "KEY_RIGHT",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "06_buttons",
+      "xy": [
+        123.0,
+        104.0
+      ],
+      "mpn": "RC0805FR-074K7L",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "6f849d75-e5d6-5c56-b1d7-b4a9c51c8c20",
+      "sch_xy": [
+        162.56,
+        107.95
+      ],
+      "sheet_uuid": "18a24bff-c187-5333-82bc-ba4dbeaff54c"
+    },
+    {
+      "ref": "SW5",
+      "value": "OK",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "A",
+          "net": "KEY_ADC",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "B",
+          "net": "KEY_OK",
+          "type": "passive"
+        }
+      ],
+      "sheet": "06_buttons",
+      "xy": [
+        107.0,
+        95.0
+      ],
+      "mpn": "B3F-1000",
+      "manufacturer": "Omron",
+      "datasheet": "https://components.omron.com/us-en/products/switches/B3F",
+      "notes": "6mm through-hole tact; verify actuator height and native pad fit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "4ffd37ba-f7ab-5851-bd71-237442df5e68",
+      "sch_xy": [
+        162.56,
+        137.16
+      ],
+      "sheet_uuid": "18a24bff-c187-5333-82bc-ba4dbeaff54c"
+    },
+    {
+      "ref": "R25",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "KEY_OK",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "06_buttons",
+      "xy": [
+        103.0,
+        89.0
+      ],
+      "mpn": "RC0805FR-0710KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "72e593ee-cea0-5350-a07f-58d3e28a89a7",
+      "sch_xy": [
+        162.56,
+        167.64000000000001
+      ],
+      "sheet_uuid": "18a24bff-c187-5333-82bc-ba4dbeaff54c"
+    },
+    {
+      "ref": "SW6",
+      "value": "BACK",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "A",
+          "net": "KEY_ADC",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "B",
+          "net": "KEY_BACK",
+          "type": "passive"
+        }
+      ],
+      "sheet": "06_buttons",
+      "xy": [
+        95.0,
+        110.0
+      ],
+      "mpn": "B3F-1000",
+      "manufacturer": "Omron",
+      "datasheet": "https://components.omron.com/us-en/products/switches/B3F",
+      "notes": "6mm through-hole tact; verify actuator height and native pad fit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "7653fa35-c5fe-5a04-911b-9996c423f9e9",
+      "sch_xy": [
+        162.56,
+        196.85
+      ],
+      "sheet_uuid": "18a24bff-c187-5333-82bc-ba4dbeaff54c"
+    },
+    {
+      "ref": "R26",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "KEY_BACK",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "06_buttons",
+      "xy": [
+        90.0,
+        114.0
+      ],
+      "mpn": "RC0805FR-0722KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "84a96719-c42a-5f21-9e82-3af98f6a253f",
+      "sch_xy": [
+        162.56,
+        226.06
+      ],
+      "sheet_uuid": "18a24bff-c187-5333-82bc-ba4dbeaff54c"
+    },
+    {
+      "ref": "J6",
+      "value": "3V3 SD HARNESS",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+      "pins": [
+        {
+          "num": "1",
+          "name": "+3V3",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "GND",
+          "net": "GND",
+          "type": "passive"
+        },
+        {
+          "num": "3",
+          "name": "SD_SCK",
+          "net": "SD_SCK",
+          "type": "passive"
+        },
+        {
+          "num": "4",
+          "name": "SD_MOSI",
+          "net": "SD_MOSI",
+          "type": "passive"
+        },
+        {
+          "num": "5",
+          "name": "SD_MISO",
+          "net": "SD_MISO",
+          "type": "passive"
+        },
+        {
+          "num": "6",
+          "name": "SD_CS",
+          "net": "SD_CS",
+          "type": "passive"
+        }
+      ],
+      "sheet": "07_storage",
+      "xy": [
+        84.0,
+        76.0
+      ],
+      "mpn": "TSW-006-07-G-S",
+      "manufacturer": "Samtec",
+      "datasheet": "https://www.samtec.com/products/tsw",
+      "notes": "Carrier-side pin order only. Cable assembly and manufacturer drawing audit remain release gates.",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "e9dae110-0d14-517b-99ab-f52faa84b525",
+      "sch_xy": [
+        64.77,
+        49.53
+      ],
+      "sheet_uuid": "3f7cf477-9ec5-55cc-9999-d7e081a963b9"
+    },
+    {
+      "ref": "R27",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "SD_SCK_SRC",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "SD_SCK",
+          "type": "passive"
+        }
+      ],
+      "sheet": "07_storage",
+      "xy": [
+        80.0,
+        84.0
+      ],
+      "mpn": "RC0805FR-0733RL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "86759997-2865-5e9c-9ec7-862d689a6eea",
+      "sch_xy": [
+        64.77,
+        81.28
+      ],
+      "sheet_uuid": "3f7cf477-9ec5-55cc-9999-d7e081a963b9"
+    },
+    {
+      "ref": "R28",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "SD_MOSI_SRC",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "SD_MOSI",
+          "type": "passive"
+        }
+      ],
+      "sheet": "07_storage",
+      "xy": [
+        80.0,
+        88.0
+      ],
+      "mpn": "RC0805FR-0733RL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "af575ebd-0f08-5ec1-adbb-41b4ba3ecd90",
+      "sch_xy": [
+        64.77,
+        110.49
+      ],
+      "sheet_uuid": "3f7cf477-9ec5-55cc-9999-d7e081a963b9"
+    },
+    {
+      "ref": "R29",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "SD_CS",
+          "type": "passive"
+        }
+      ],
+      "sheet": "07_storage",
+      "xy": [
+        89.0,
+        78.0
+      ],
+      "mpn": "RC0805FR-0710KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "ff16406b-73df-596d-b4ae-fe407cdcef66",
+      "sch_xy": [
+        64.77,
+        139.7
+      ],
+      "sheet_uuid": "3f7cf477-9ec5-55cc-9999-d7e081a963b9"
+    },
+    {
+      "ref": "R30",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "SD_MISO",
+          "type": "passive"
+        }
+      ],
+      "sheet": "07_storage",
+      "xy": [
+        89.0,
+        82.0
+      ],
+      "mpn": "RC0805FR-0710KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "80dc2571-0ea7-548f-8009-5435a751e57b",
+      "sch_xy": [
+        64.77,
+        170.18
+      ],
+      "sheet_uuid": "3f7cf477-9ec5-55cc-9999-d7e081a963b9"
+    },
+    {
+      "ref": "C19",
+      "value": "22u",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "07_storage",
+      "xy": [
+        89.0,
+        86.0
+      ],
+      "mpn": "GRM31CR61A226KE19L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "Ceramic; exact DC-bias and sourcing review pending; do not substitute voltage rating blindly",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "209f1a19-6738-5525-8584-1813dd407a75",
+      "sch_xy": [
+        64.77,
+        199.39000000000001
+      ],
+      "sheet_uuid": "3f7cf477-9ec5-55cc-9999-d7e081a963b9"
+    },
+    {
+      "ref": "J7",
+      "value": "UART RECOVERY",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+      "pins": [
+        {
+          "num": "1",
+          "name": "GND",
+          "net": "GND",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "UART_TX",
+          "net": "UART_TX",
+          "type": "passive"
+        },
+        {
+          "num": "3",
+          "name": "UART_RX",
+          "net": "UART_RX",
+          "type": "passive"
+        },
+        {
+          "num": "4",
+          "name": "EN",
+          "net": "EN",
+          "type": "passive"
+        },
+        {
+          "num": "5",
+          "name": "BOOT",
+          "net": "BOOT",
+          "type": "passive"
+        },
+        {
+          "num": "6",
+          "name": "+3V3",
+          "net": "+3V3",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        75.5,
+        98.0
+      ],
+      "mpn": "TSW-006-07-G-S",
+      "manufacturer": "Samtec",
+      "datasheet": "https://www.samtec.com/products/tsw",
+      "notes": "Carrier-side pin order only. Cable assembly and manufacturer drawing audit remain release gates.",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "18505c9d-7ff5-563a-bfa7-267cee92e7da",
+      "sch_xy": [
+        64.77,
+        49.53
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "J8",
+      "value": "I2C EXPANSION",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "pins": [
+        {
+          "num": "1",
+          "name": "+3V3",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "GND",
+          "net": "GND",
+          "type": "passive"
+        },
+        {
+          "num": "3",
+          "name": "I2C_SCL",
+          "net": "I2C_SCL",
+          "type": "passive"
+        },
+        {
+          "num": "4",
+          "name": "I2C_SDA",
+          "net": "I2C_SDA",
+          "type": "passive"
+        }
+      ],
+      "sheet": "09_expansion",
+      "xy": [
+        125.0,
+        71.0
+      ],
+      "mpn": "TSW-004-07-G-S",
+      "manufacturer": "Samtec",
+      "datasheet": "https://www.samtec.com/products/tsw",
+      "notes": "Carrier-side pin order only. Cable assembly and manufacturer drawing audit remain release gates.",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "9902f8fc-563d-5eb1-bb00-9eecaa02f6dc",
+      "sch_xy": [
+        64.77,
+        48.26
+      ],
+      "sheet_uuid": "63c44e31-cc91-569a-b924-1eef93c88caf"
+    },
+    {
+      "ref": "SW7",
+      "value": "BOOT",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "A",
+          "net": "BOOT",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "B",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        80.0,
+        110.0
+      ],
+      "mpn": "B3F-1000",
+      "manufacturer": "Omron",
+      "datasheet": "https://components.omron.com/us-en/products/switches/B3F",
+      "notes": "",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "dee10d84-eb43-5101-8e2f-c968f525a6b9",
+      "sch_xy": [
+        64.77,
+        81.28
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "SW8",
+      "value": "RESET",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "A",
+          "net": "EN",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "B",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        81.0,
+        65.0
+      ],
+      "mpn": "B3F-1000",
+      "manufacturer": "Omron",
+      "datasheet": "https://components.omron.com/us-en/products/switches/B3F",
+      "notes": "",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "671bc90c-6c24-5814-9121-625aec4016a6",
+      "sch_xy": [
+        64.77,
+        110.49
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "R31",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "STATUS",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "LED_A",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        69.0,
+        74.0
+      ],
+      "mpn": "RC0805FR-071KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "0cda6c92-f5dc-5139-9222-d200989642bf",
+      "sch_xy": [
+        64.77,
+        139.7
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "D1",
+      "value": "STATUS amber",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "K",
+          "net": "GND",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "A",
+          "net": "LED_A",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        73.0,
+        74.0
+      ],
+      "mpn": "LTST-C170KFKT",
+      "manufacturer": "Lite-On",
+      "datasheet": "https://optoelectronics.liteon.com/en-global/Led/LED-Lamp",
+      "notes": "Sourcing and polarity audit pending",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "a98f1cab-b0ca-5508-98f7-2526b25b5ca4",
+      "sch_xy": [
+        64.77,
+        170.18
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "TP1",
+      "value": "VBUS",
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "VBUS",
+          "net": "VBUS",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        33.0,
+        109.0
+      ],
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "Bare copper probe pad, no purchased component",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "56382f64-33cb-50c6-98f8-1552e3ed0a8d",
+      "sch_xy": [
+        64.77,
+        199.39000000000001
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "TP2",
+      "value": "+5V",
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "+5V",
+          "net": "+5V",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        33.0,
+        83.0
+      ],
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "Bare copper probe pad, no purchased component",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "de344f3e-fe1e-5ac7-b4c9-8478388c5e56",
+      "sch_xy": [
+        64.77,
+        228.6
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "TP3",
+      "value": "+3V3",
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "+3V3",
+          "net": "+3V3",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        51.0,
+        84.7
+      ],
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "Bare copper probe pad, no purchased component",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "299ecf33-b3e9-5c31-badc-c74b44fe3544",
+      "sch_xy": [
+        162.56,
+        48.26
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "TP4",
+      "value": "GND",
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "GND",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        44.0,
+        72.0
+      ],
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "Bare copper probe pad, no purchased component",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "a0c3d599-2b82-5fb8-9323-b4c749269714",
+      "sch_xy": [
+        162.56,
+        78.74
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "TP5",
+      "value": "EN",
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "EN",
+          "net": "EN",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        83.0,
+        106.0
+      ],
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "Bare copper probe pad, no purchased component",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "b4975fa4-1cda-5eca-99ab-82d3e173bb64",
+      "sch_xy": [
+        162.56,
+        107.95
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "TP6",
+      "value": "BOOT",
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "BOOT",
+          "net": "BOOT",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        85.0,
+        102.0
+      ],
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "Bare copper probe pad, no purchased component",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "953ccd43-7184-5fe9-9841-b81050bd4649",
+      "sch_xy": [
+        162.56,
+        137.16
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "TP7",
+      "value": "+3V3",
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "+3V3",
+          "net": "+3V3",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        108.0,
+        48.0
+      ],
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "Bare copper probe pad, no purchased component",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "f9fbb166-87dc-5ed2-8895-860cee25dea5",
+      "sch_xy": [
+        162.56,
+        167.64000000000001
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "TP8",
+      "value": "+5V",
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "+5V",
+          "net": "+5V",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        48.0,
+        73.0
+      ],
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "Bare copper probe pad, no purchased component",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "65b17acd-7a7d-5d1c-a128-955633255336",
+      "sch_xy": [
+        162.56,
+        196.85
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "TP9",
+      "value": "I2C_SCL",
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "I2C_SCL",
+          "net": "I2C_SCL",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        95.0,
+        58.0
+      ],
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "Bare copper probe pad, no purchased component",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "e73bf22b-da01-5797-af19-6c901cb4b92e",
+      "sch_xy": [
+        162.56,
+        226.06
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "TP10",
+      "value": "I2C_SDA",
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "I2C_SDA",
+          "net": "I2C_SDA",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        95.0,
+        62.0
+      ],
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "Bare copper probe pad, no purchased component",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "e9bd3d4f-887d-5c24-aca4-737de71d3592",
+      "sch_xy": [
+        261.62,
+        48.26
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "TP11",
+      "value": "MIC_BCLK",
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "MIC_BCLK",
+          "net": "MIC_BCLK",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        76.0,
+        59.0
+      ],
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "Bare copper probe pad, no purchased component",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "69d19df1-6dbb-5986-b78c-9726d6722333",
+      "sch_xy": [
+        261.62,
+        78.74
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "TP12",
+      "value": "MIC_WS",
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "MIC_WS",
+          "net": "MIC_WS",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        80.0,
+        59.0
+      ],
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "Bare copper probe pad, no purchased component",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "e697507b-21d8-5364-9da0-faa49f0d6e0d",
+      "sch_xy": [
+        261.62,
+        107.95
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "TP13",
+      "value": "MIC_DATA",
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "MIC_DATA",
+          "net": "MIC_DATA",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        43.0,
+        39.0
+      ],
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "Bare copper probe pad, no purchased component",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "8ea5bb63-64eb-5e18-8ea1-be678045b549",
+      "sch_xy": [
+        261.62,
+        137.16
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "TP14",
+      "value": "SD_SCK",
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "SD_SCK",
+          "net": "SD_SCK",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        79.0,
+        80.0
+      ],
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "Bare copper probe pad, no purchased component",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "1b5c1ed0-630e-5669-a40b-bf6c4099a7d9",
+      "sch_xy": [
+        261.62,
+        167.64000000000001
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "TP15",
+      "value": "PERIPH_EN",
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "PERIPH_EN",
+          "net": "PERIPH_EN",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        57.0,
+        78.0
+      ],
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "Bare copper probe pad, no purchased component",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "827d154f-885b-57cb-bf6b-873ff9daac7a",
+      "sch_xy": [
+        261.62,
+        196.85
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "TP16",
+      "value": "CC_3A_OK",
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "CC_3A_OK",
+          "net": "CC_3A_OK",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        67.0,
+        108.0
+      ],
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "Bare copper probe pad, no purchased component",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "b809cfa7-932f-5819-a390-d14309416c44",
+      "sch_xy": [
+        261.62,
+        226.06
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "TP17",
+      "value": "IMON",
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "IMON",
+          "net": "IMON",
+          "type": "passive"
+        }
+      ],
+      "sheet": "10_debug",
+      "xy": [
+        33.0,
+        87.0
+      ],
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "Bare copper probe pad, no purchased component",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "d6062972-af93-5ba9-8349-497c31938b0e",
+      "sch_xy": [
+        359.41,
+        48.26
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "H1",
+      "value": "M3 mounting",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": [],
+      "sheet": "10_debug",
+      "xy": [
+        34.0,
+        33.0
+      ],
+      "mpn": "NPTH 3.2mm",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "No copper; screw head keepout still requires mechanical audit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "baa62dee-cc2a-56b1-83c1-278e745dab02",
+      "sch_xy": [
+        359.41,
+        78.74
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "H2",
+      "value": "M3 mounting",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": [],
+      "sheet": "10_debug",
+      "xy": [
+        126.0,
+        33.0
+      ],
+      "mpn": "NPTH 3.2mm",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "No copper; screw head keepout still requires mechanical audit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "5fccd0d7-879d-530a-bd33-843a5bca7f56",
+      "sch_xy": [
+        359.41,
+        107.95
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "H3",
+      "value": "M3 mounting",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": [],
+      "sheet": "10_debug",
+      "xy": [
+        34.0,
+        116.0
+      ],
+      "mpn": "NPTH 3.2mm",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "No copper; screw head keepout still requires mechanical audit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "693f132a-9d57-5a62-b866-103fe799a581",
+      "sch_xy": [
+        359.41,
+        137.16
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "H4",
+      "value": "M3 mounting",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": [],
+      "sheet": "10_debug",
+      "xy": [
+        126.0,
+        116.0
+      ],
+      "mpn": "NPTH 3.2mm",
+      "manufacturer": "PCB",
+      "datasheet": "",
+      "notes": "No copper; screw head keepout still requires mechanical audit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "f9b20c7f-75f4-50e8-9388-9ace1d90daec",
+      "sch_xy": [
+        359.41,
+        167.64000000000001
+      ],
+      "sheet_uuid": "ab35258a-c2a7-5b1b-ad42-32b85d890e74"
+    },
+    {
+      "ref": "#FLG1",
+      "value": "PWR_FLAG",
+      "footprint": "",
+      "pins": [
+        {
+          "num": "1",
+          "name": "SUPPLIED",
+          "net": "+5V_FUSED",
+          "type": "power_out"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        0,
+        0
+      ],
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "notes": "Logical source declaration: USB connector through fuse or verified buck through output inductor; no physical part",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0,
+      "uuid": "c89347a4-1719-57cd-8330-8f52c0ad7d4f",
+      "sch_xy": [
+        162.56,
+        137.16
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "#FLG2",
+      "value": "PWR_FLAG",
+      "footprint": "",
+      "pins": [
+        {
+          "num": "1",
+          "name": "SUPPLIED",
+          "net": "GND",
+          "type": "power_out"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        0,
+        0
+      ],
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "notes": "Logical source declaration: USB connector through fuse or verified buck through output inductor; no physical part",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0,
+      "uuid": "07b56ba1-f346-538d-87d0-60cb68fecf48",
+      "sch_xy": [
+        162.56,
+        167.64000000000001
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "#FLG3",
+      "value": "PWR_FLAG",
+      "footprint": "",
+      "pins": [
+        {
+          "num": "1",
+          "name": "SUPPLIED",
+          "net": "+3V3",
+          "type": "power_out"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        0,
+        0
+      ],
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "notes": "Logical source declaration: USB connector through fuse or verified buck through output inductor; no physical part",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0,
+      "uuid": "a3aa86a2-4875-5e9b-9a8c-6aaa4ac907b2",
+      "sch_xy": [
+        162.56,
+        196.85
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "U6",
+      "value": "TXU0104PWR fail-safe I2S",
+      "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "VCCA",
+          "net": "+3V3",
+          "type": "power_in"
+        },
+        {
+          "num": "2",
+          "name": "A1",
+          "net": "I2S_BCLK_SRC",
+          "type": "input"
+        },
+        {
+          "num": "3",
+          "name": "A2",
+          "net": "I2S_WS_SRC",
+          "type": "input"
+        },
+        {
+          "num": "4",
+          "name": "A3",
+          "net": "I2S_TX_SRC",
+          "type": "input"
+        },
+        {
+          "num": "5",
+          "name": "A4",
+          "net": "GND",
+          "type": "input"
+        },
+        {
+          "num": "6",
+          "name": "NC",
+          "net": null,
+          "type": "passive"
+        },
+        {
+          "num": "7",
+          "name": "GND",
+          "net": "GND",
+          "type": "power_in"
+        },
+        {
+          "num": "8",
+          "name": "OE",
+          "net": "PERIPH_EN",
+          "type": "input"
+        },
+        {
+          "num": "9",
+          "name": "NC",
+          "net": null,
+          "type": "passive"
+        },
+        {
+          "num": "10",
+          "name": "B4",
+          "net": null,
+          "type": "output"
+        },
+        {
+          "num": "11",
+          "name": "B3",
+          "net": "AMP_TX_BUF",
+          "type": "output"
+        },
+        {
+          "num": "12",
+          "name": "B2",
+          "net": "AMP_WS_BUF",
+          "type": "output"
+        },
+        {
+          "num": "13",
+          "name": "B1",
+          "net": "AMP_BCLK_BUF",
+          "type": "output"
+        },
+        {
+          "num": "14",
+          "name": "VCCB",
+          "net": "+5V",
+          "type": "power_in"
+        }
+      ],
+      "sheet": "04_audio",
+      "xy": [
+        63.0,
+        65.0
+      ],
+      "mpn": "TXU0104PWR",
+      "manufacturer": "Texas Instruments",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/txu0104.pdf",
+      "notes": "Automatic supply isolation and Ioff; default disabled by R9. Same-rail display/mic/SD eliminate independent power-off injection.",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "94d82a72-869d-5aa6-aa09-6bf88e9879ae",
+      "sch_xy": [
+        162.56,
+        114.3
+      ],
+      "sheet_uuid": "d764b927-cacc-56b9-a135-d6487ebb7cae"
+    },
+    {
+      "ref": "U7",
+      "value": "TUSB320LAIRWBR Type-C sink",
+      "footprint": "Package_DFN_QFN:Texas_X2QFN-12_1.6x1.6mm_P0.4mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "CC1",
+          "net": "CC1",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "CC2",
+          "net": "CC2",
+          "type": "passive"
+        },
+        {
+          "num": "3",
+          "name": "PORT",
+          "net": "GND",
+          "type": "input"
+        },
+        {
+          "num": "4",
+          "name": "VBUS_DET",
+          "net": "VBUS_DET",
+          "type": "input"
+        },
+        {
+          "num": "5",
+          "name": "ADDR",
+          "net": null,
+          "type": "input"
+        },
+        {
+          "num": "6",
+          "name": "OUT3",
+          "net": null,
+          "type": "open_collector"
+        },
+        {
+          "num": "7",
+          "name": "OUT1",
+          "net": "CC_OUT1",
+          "type": "open_collector"
+        },
+        {
+          "num": "8",
+          "name": "OUT2",
+          "net": "CC_OUT2",
+          "type": "open_collector"
+        },
+        {
+          "num": "9",
+          "name": "ID",
+          "net": null,
+          "type": "open_collector"
+        },
+        {
+          "num": "10",
+          "name": "GND",
+          "net": "GND",
+          "type": "power_in"
+        },
+        {
+          "num": "11",
+          "name": "EN_N",
+          "net": "GND",
+          "type": "input"
+        },
+        {
+          "num": "12",
+          "name": "VDD",
+          "net": "+3V3_AON",
+          "type": "power_in"
+        }
+      ],
+      "sheet": "02_usb",
+      "xy": [
+        55.0,
+        112.0
+      ],
+      "mpn": "TUSB320LAIRWBR",
+      "manufacturer": "Texas Instruments",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tusb320lai.pdf",
+      "notes": "GPIO mode ADDR floating; sink PORT grounded; internal Rd. OUT1/2 low only for 3A advertisement.",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "c8fd209a-7987-51d9-b2fb-90ba70ac251e",
+      "sch_xy": [
+        64.77,
+        222.25
+      ],
+      "sheet_uuid": "d536e1d7-6067-5530-8413-743f0e0b7fec"
+    },
+    {
+      "ref": "U8",
+      "value": "TLV76033DBZR always-on",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "pins": [
+        {
+          "num": "1",
+          "name": "OUT",
+          "net": "+3V3_AON",
+          "type": "power_out"
+        },
+        {
+          "num": "2",
+          "name": "IN",
+          "net": "+5V_FUSED",
+          "type": "power_in"
+        },
+        {
+          "num": "3",
+          "name": "GND",
+          "net": "GND",
+          "type": "power_in"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        37.0,
+        87.0
+      ],
+      "mpn": "TLV76033DBZR",
+      "manufacturer": "Texas Instruments",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tlv760.pdf",
+      "notes": "30V input rating; pin order follows corrected Rev A datasheet. Powers only CC detector and logic.",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "d9ef5680-9345-5447-a224-0b32c073d15b",
+      "sch_xy": [
+        162.56,
+        226.06
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "U9",
+      "value": "SN74LVC2G02DCTR dual NOR",
+      "footprint": "Package_SO:SSOP-8_2.95x2.8mm_P0.65mm",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1A",
+          "net": "CC_OUT1",
+          "type": "input"
+        },
+        {
+          "num": "2",
+          "name": "1B",
+          "net": "CC_OUT2",
+          "type": "input"
+        },
+        {
+          "num": "3",
+          "name": "2Y",
+          "net": "CC_NOT_3A",
+          "type": "output"
+        },
+        {
+          "num": "4",
+          "name": "GND",
+          "net": "GND",
+          "type": "power_in"
+        },
+        {
+          "num": "5",
+          "name": "2A",
+          "net": "CC_3A_OK",
+          "type": "input"
+        },
+        {
+          "num": "6",
+          "name": "2B",
+          "net": "CC_3A_OK",
+          "type": "input"
+        },
+        {
+          "num": "7",
+          "name": "1Y",
+          "net": "CC_3A_OK",
+          "type": "output"
+        },
+        {
+          "num": "8",
+          "name": "VCC",
+          "net": "+3V3_AON",
+          "type": "power_in"
+        }
+      ],
+      "sheet": "02_usb",
+      "xy": [
+        63.0,
+        115.0
+      ],
+      "mpn": "SN74LVC2G02DCTR",
+      "manufacturer": "Texas Instruments",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc2g02.pdf",
+      "notes": "3A truth table hardware interlock; no MCU sampling thresholds",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "9bbb8677-354d-5eb3-aaac-c03496a20ab3",
+      "sch_xy": [
+        162.56,
+        50.8
+      ],
+      "sheet_uuid": "d536e1d7-6067-5530-8413-743f0e0b7fec"
+    },
+    {
+      "ref": "Q1",
+      "value": "2N7002 eFuse inhibit",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "pins": [
+        {
+          "num": "1",
+          "name": "G",
+          "net": "CC_NOT_3A",
+          "type": "input"
+        },
+        {
+          "num": "2",
+          "name": "S",
+          "net": "GND",
+          "type": "passive"
+        },
+        {
+          "num": "3",
+          "name": "D",
+          "net": "EFUSE_EN",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        43.0,
+        88.0
+      ],
+      "mpn": "2N7002,215",
+      "manufacturer": "Nexperia",
+      "datasheet": "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf",
+      "notes": "Pulls eFuse enable below UVLO when unattached/default/1.5A",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "b720c0c6-ce99-5302-9570-c8f74761a1df",
+      "sch_xy": [
+        261.62,
+        48.26
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "D2",
+      "value": "SMBJ10A VBUS TVS",
+      "footprint": "Diode_SMD:D_SMB",
+      "pins": [
+        {
+          "num": "1",
+          "name": "K",
+          "net": "+5V_FUSED",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "A",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        38.0,
+        105.0
+      ],
+      "mpn": "SMBJ10A",
+      "manufacturer": "Littelfuse",
+      "datasheet": "https://www.littelfuse.com/products/overvoltage-protection/tvs-diodes/surface-mount/smbj/smbj10a",
+      "notes": "17V rated pulse clamp below eFuse 20V absolute maximum; transient energy qualification pending",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "e92d7951-8abc-5311-8152-173cd0d1d900",
+      "sch_xy": [
+        261.62,
+        78.74
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "R32",
+      "value": "47k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3_AON",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "CC_OUT1",
+          "type": "passive"
+        }
+      ],
+      "sheet": "02_usb",
+      "xy": [
+        62.0,
+        110.0
+      ],
+      "mpn": "RC0805FR-0747KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "b311898b-1750-5e3d-a53d-e6fa4f66ef50",
+      "sch_xy": [
+        162.56,
+        83.82000000000001
+      ],
+      "sheet_uuid": "d536e1d7-6067-5530-8413-743f0e0b7fec"
+    },
+    {
+      "ref": "R33",
+      "value": "47k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3_AON",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "CC_OUT2",
+          "type": "passive"
+        }
+      ],
+      "sheet": "02_usb",
+      "xy": [
+        62.0,
+        107.5
+      ],
+      "mpn": "RC0805FR-0747KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "f87f756a-5d55-529a-83c4-9167163e11a5",
+      "sch_xy": [
+        162.56,
+        113.03
+      ],
+      "sheet_uuid": "d536e1d7-6067-5530-8413-743f0e0b7fec"
+    },
+    {
+      "ref": "R34",
+      "value": "887k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+5V_FUSED",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "VBUS_DET",
+          "type": "passive"
+        }
+      ],
+      "sheet": "02_usb",
+      "xy": [
+        73.0,
+        114.0
+      ],
+      "mpn": "RC0805FR-07887KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "44f2132f-8400-5374-b14d-7612e365df12",
+      "sch_xy": [
+        162.56,
+        142.24
+      ],
+      "sheet_uuid": "d536e1d7-6067-5530-8413-743f0e0b7fec"
+    },
+    {
+      "ref": "R35",
+      "value": "34.8k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "ILIM",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        34.0,
+        98.0
+      ],
+      "mpn": "RC0805FR-0734K8L",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "698b8641-962b-5ca5-a9b2-9d3e9de1f8d5",
+      "sch_xy": [
+        261.62,
+        107.95
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "R36",
+      "value": "309k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+5V_FUSED",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "EFUSE_EN",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        43.0,
+        91.0
+      ],
+      "mpn": "RC0805FR-07309KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "a8f22032-1904-5775-8db6-ce86f280de69",
+      "sch_xy": [
+        261.62,
+        137.16
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "R37",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "EFUSE_EN",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        43.0,
+        94.0
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "d4853efa-1f56-5faa-8205-f3be5996df38",
+      "sch_xy": [
+        261.62,
+        167.64000000000001
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "R38",
+      "value": "475k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+5V_FUSED",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "OVP",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        34.0,
+        91.0
+      ],
+      "mpn": "RT0805BRD07475KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "0.1% OVP threshold divider",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "925eac20-a7be-5560-8b1b-9d57c3dbc9bf",
+      "sch_xy": [
+        261.62,
+        196.85
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "R39",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "OVP",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        34.0,
+        94.0
+      ],
+      "mpn": "RT0805BRD07100KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "0.1% OVP threshold divider",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "0b22df8f-3b34-5b65-876e-8ebd0e1f8bc9",
+      "sch_xy": [
+        261.62,
+        226.06
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "R40",
+      "value": "332k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+5V",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "PGTH",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        44.0,
+        99.0
+      ],
+      "mpn": "RC0805FR-07332KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "93f4c75e-d32d-5782-8ee9-a92d2421253c",
+      "sch_xy": [
+        359.41,
+        48.26
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "R41",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "PGTH",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        44.0,
+        102.0
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "68438a17-91f7-51a9-ba96-7f3090e81dc1",
+      "sch_xy": [
+        359.41,
+        78.74
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "R42",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "IMON",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        44.0,
+        107.0
+      ],
+      "mpn": "RC0805FR-0710KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "29ef3a22-2816-51e9-8060-25ec5a3859ce",
+      "sch_xy": [
+        359.41,
+        107.95
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "R43",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "POWER_GOOD",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        46.0,
+        85.0
+      ],
+      "mpn": "RC0805FR-0710KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "3aa04322-7a9d-5fea-a0cf-d8de6ac4d133",
+      "sch_xy": [
+        359.41,
+        137.16
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "R44",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "POWER_FAULT",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        46.0,
+        81.0
+      ],
+      "mpn": "RC0805FR-0710KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "e0e654c2-d736-589a-a4a5-e3e7cb43c86c",
+      "sch_xy": [
+        359.41,
+        167.64000000000001
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "R45",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "DISPLAY_SD_CS",
+          "type": "passive"
+        }
+      ],
+      "sheet": "03_display",
+      "xy": [
+        102.0,
+        44.0
+      ],
+      "mpn": "RC0805FR-0710KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "99770995-6cad-576a-9047-8e7bfbd791c0",
+      "sch_xy": [
+        64.77,
+        241.3
+      ],
+      "sheet_uuid": "d79ed958-c85e-51d9-8111-d20347580243"
+    },
+    {
+      "ref": "R46",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "I2S_BCLK_SRC",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "MIC_BCLK",
+          "type": "passive"
+        }
+      ],
+      "sheet": "04_audio",
+      "xy": [
+        73.0,
+        84.0
+      ],
+      "mpn": "RC0805FR-0733RL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "e02f968c-6f50-5934-9f43-76769a594f3b",
+      "sch_xy": [
+        162.56,
+        149.86
+      ],
+      "sheet_uuid": "d764b927-cacc-56b9-a135-d6487ebb7cae"
+    },
+    {
+      "ref": "R47",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "I2S_WS_SRC",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "MIC_WS",
+          "type": "passive"
+        }
+      ],
+      "sheet": "04_audio",
+      "xy": [
+        73.0,
+        80.0
+      ],
+      "mpn": "RC0805FR-0733RL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "567de315-27dd-5b49-a262-056732a7762d",
+      "sch_xy": [
+        162.56,
+        180.34
+      ],
+      "sheet_uuid": "d764b927-cacc-56b9-a135-d6487ebb7cae"
+    },
+    {
+      "ref": "R48",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "AMP_BCLK",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "04_audio",
+      "xy": [
+        56.0,
+        56.0
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "5ff2f1dc-0bf2-567b-92f2-fbd72e8e75b5",
+      "sch_xy": [
+        162.56,
+        209.55
+      ],
+      "sheet_uuid": "d764b927-cacc-56b9-a135-d6487ebb7cae"
+    },
+    {
+      "ref": "R49",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "AMP_WS",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "04_audio",
+      "xy": [
+        59.5,
+        56.0
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "b810cfaf-e96f-52bd-8cf6-b826132d4a28",
+      "sch_xy": [
+        162.56,
+        238.76
+      ],
+      "sheet_uuid": "d764b927-cacc-56b9-a135-d6487ebb7cae"
+    },
+    {
+      "ref": "R50",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "AMP_TX",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "04_audio",
+      "xy": [
+        63.0,
+        56.0
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "manufacturer": "Yageo",
+      "datasheet": "https://www.yageo.com/en/ProductSearch",
+      "notes": "1% 0805 thick-film; exact value and pin mapping explicit",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "0a52f427-df85-55a6-a59c-87c8f24034dd",
+      "sch_xy": [
+        261.62,
+        48.26
+      ],
+      "sheet_uuid": "d764b927-cacc-56b9-a135-d6487ebb7cae"
+    },
+    {
+      "ref": "C20",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+5V_FUSED",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        37.0,
+        83.0
+      ],
+      "mpn": "GRM21BR71H104KA01L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "Ceramic; exact DC-bias and sourcing review pending; do not substitute voltage rating blindly",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "ee093b79-fa54-557e-bde7-db7b68cbffb7",
+      "sch_xy": [
+        359.41,
+        196.85
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "C21",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3_AON",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        38.0,
+        92.0
+      ],
+      "mpn": "GRM21BR71A105KA01L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "Ceramic; exact DC-bias and sourcing review pending; do not substitute voltage rating blindly",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "d3d7f3d1-fdd9-57a9-a731-114cd8d1982c",
+      "sch_xy": [
+        359.41,
+        226.06
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    },
+    {
+      "ref": "C22",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3_AON",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "02_usb",
+      "xy": [
+        55.0,
+        108.0
+      ],
+      "mpn": "GRM21BR71H104KA01L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "Ceramic; exact DC-bias and sourcing review pending; do not substitute voltage rating blindly",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "fcf3027d-9eed-5cdd-bab2-118abc8510e6",
+      "sch_xy": [
+        162.56,
+        172.72
+      ],
+      "sheet_uuid": "d536e1d7-6067-5530-8413-743f0e0b7fec"
+    },
+    {
+      "ref": "C23",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3_AON",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "02_usb",
+      "xy": [
+        68.0,
+        118.0
+      ],
+      "mpn": "GRM21BR71H104KA01L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "Ceramic; exact DC-bias and sourcing review pending; do not substitute voltage rating blindly",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "ad06abc0-185e-534a-a6ed-4dd26a4478ec",
+      "sch_xy": [
+        162.56,
+        201.93
+      ],
+      "sheet_uuid": "d536e1d7-6067-5530-8413-743f0e0b7fec"
+    },
+    {
+      "ref": "C24",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+3V3",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "04_audio",
+      "xy": [
+        57.0,
+        65.0
+      ],
+      "mpn": "GRM21BR71H104KA01L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "Ceramic; exact DC-bias and sourcing review pending; do not substitute voltage rating blindly",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "22c15c55-e66e-51c6-a2e7-107360e6f611",
+      "sch_xy": [
+        261.62,
+        78.74
+      ],
+      "sheet_uuid": "d764b927-cacc-56b9-a135-d6487ebb7cae"
+    },
+    {
+      "ref": "C25",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "+5V",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "04_audio",
+      "xy": [
+        70.0,
+        62.0
+      ],
+      "mpn": "GRM21BR71H104KA01L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "Ceramic; exact DC-bias and sourcing review pending; do not substitute voltage rating blindly",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "8516e86e-db51-58aa-aa20-705119b0f72d",
+      "sch_xy": [
+        261.62,
+        107.95
+      ],
+      "sheet_uuid": "d764b927-cacc-56b9-a135-d6487ebb7cae"
+    },
+    {
+      "ref": "C26",
+      "value": "47n",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "net": "SLEW",
+          "type": "passive"
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "sheet": "00_power",
+      "xy": [
+        39.0,
+        96.0
+      ],
+      "mpn": "GRM21BR71H473KA01L",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-global/products/capacitor/mlcc",
+      "notes": "50V X7R; nominal ~19.5ms eFuse ramp",
+      "unit_cost": null,
+      "availability": "Not verified",
+      "angle": 0.0,
+      "uuid": "06c7af93-96b1-5f74-aa46-7f12d6a236f4",
+      "sch_xy": [
+        457.2,
+        48.26
+      ],
+      "sheet_uuid": "2d235e57-b2be-5879-8871-38b219810dcd"
+    }
+  ],
+  "status": "DO NOT ORDER"
+}

@@ -1,0 +1,425 @@
+{
+  "release_status": "DO NOT ORDER",
+  "files": [
+    {
+      "path": "design_data.json",
+      "bytes": 131742,
+      "sha256": "225102bdcc7f9751394c4c59abb3e5cc4829c3d53597bffa831962c2249e051e"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 1427,
+      "sha256": "74f6191c3633389aed33e2da023f5c79b36c315601f700e1dc8b7c3f6001317c"
+    },
+    {
+      "path": "docs/AUDIO_DESIGN.md",
+      "bytes": 1603,
+      "sha256": "d80814b49620cf96e5258b80a59814c5dda2d8f295b5b0b1c891700d3b02eaca"
+    },
+    {
+      "path": "docs/DESIGN_REVIEW_REVA.md",
+      "bytes": 2774,
+      "sha256": "567b1a733a4d3848077bdfe464590fc47d3603155b12eaa13ee6bdf7518f00fc"
+    },
+    {
+      "path": "docs/DISPLAY_RESEARCH.md",
+      "bytes": 1994,
+      "sha256": "dbc30620c852457d1a2a4ffc2613047014a84180400341827b5e62f462b0283e"
+    },
+    {
+      "path": "docs/FINAL_CHECK.md",
+      "bytes": 1311,
+      "sha256": "c9c1a869b8b63dd8795c913f5d6d6f99b0b2cde875ca67dc3acdaa9b7ce0d060"
+    },
+    {
+      "path": "docs/FOOTPRINT_AUDIT.md",
+      "bytes": 2642,
+      "sha256": "25e267ba14bb7c73103beb699afffda4b6707f2fbdfd855112e3f22564d01742"
+    },
+    {
+      "path": "docs/PIN_ASSIGNMENTS.md",
+      "bytes": 3568,
+      "sha256": "ed955168d077402da726182f8db667de09cc3003f3b63b3a6cbb3c8e0cb11c75"
+    },
+    {
+      "path": "docs/POWER_BUDGET.md",
+      "bytes": 3149,
+      "sha256": "85802a969f41f69bd356a0ae16674aa2d2a4fbc4a7a847e8e5b219030b7728f0"
+    },
+    {
+      "path": "docs/PROCESSOR_DECISION.md",
+      "bytes": 1099,
+      "sha256": "17d16225b7cbc59eb84318119208c4315e1d3a67b5bf30f0f1c670b952c25f52"
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "bytes": 6236,
+      "sha256": "7ce3583b13a78e8a0adaea73ef3a3e92d9aa1abc921a1dd8a0c71a369cc86064"
+    },
+    {
+      "path": "docs/TEST_PLAN_REVA.md",
+      "bytes": 2706,
+      "sha256": "3c7546635377007291f079708458a98071d4e042b0ab28c7db6d1eaef8c02bd3"
+    },
+    {
+      "path": "hardware/BOM_REVA.csv",
+      "bytes": 37590,
+      "sha256": "c1b6023653618749175a09f5de67f1d06304d4d6976f4ea5efb2ec9d8e2c7bac"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/00_power.kicad_sch",
+      "bytes": 86186,
+      "sha256": "6a079919b988b640b914e01fc49e5e14868a83b8e12300b52b21646292dbae44"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/01_processor.kicad_sch",
+      "bytes": 37101,
+      "sha256": "1fbf6cd85b5eb6ff7a84e7a6c0c30726b33bb6913e7d2ec0783bedcd45ab0ca3"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/02_usb.kicad_sch",
+      "bytes": 51512,
+      "sha256": "732eee7629edcae2648c6a080c05811020c51d6d5573af50853a4cbd37ee6734"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/03_display.kicad_sch",
+      "bytes": 26956,
+      "sha256": "bbba3866adcfb9004cfeb2ec71556536542079a7de60ce168973386547909ed9"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/04_audio.kicad_sch",
+      "bytes": 56040,
+      "sha256": "05dc78f47f6c555a3a3bd487ca16d49a81a893b75a6a909cf5b6d2f05fe0923b"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/05_microphone.kicad_sch",
+      "bytes": 10548,
+      "sha256": "f38500f6f66b3283399e63ca78b73c9ff8ef96dceb794f9acf9f3eccde4b799d"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/06_buttons.kicad_sch",
+      "bytes": 36268,
+      "sha256": "f9866738d40a3bb9295d32f2235de3cd748edf2939d89318006f858895fa8840"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/07_storage.kicad_sch",
+      "bytes": 18218,
+      "sha256": "f527a92cbdf7ee4085f75a6b07dd9975f09b37ef010cc0b33b094841bc21f801"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/09_expansion.kicad_sch",
+      "bytes": 4372,
+      "sha256": "96317b4d490548bc5b5a53b35709ad2b68cf754321523c065f36c7d53bf491f3"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/10_debug.kicad_sch",
+      "bytes": 53030,
+      "sha256": "c94ca5cbe7530196be52442cd820570d4c8685406bb0762ba86fb435c80fff61"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/fp-lib-table",
+      "bytes": 171,
+      "sha256": "2ad482c663e9dccf8879d162d3a81ebc0ff59a301674d2683f699fc5c03ddf83"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/nexus-pear-reva.kicad_pcb",
+      "bytes": 1428110,
+      "sha256": "7f60b4516c076d55360b54652b53e5a3ac805ab25c25a45312a4607d28181ed2"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/nexus-pear-reva.kicad_pro",
+      "bytes": 9198,
+      "sha256": "1e9eaa48dd465db45fb7120809f17aa7517a22514764da9fba8e5c72ddb4f720"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/nexus-pear-reva.kicad_sch",
+      "bytes": 4888,
+      "sha256": "f47c2eb2e5ac21d6bead3d7d19601dee90d8d7060a901f1339ded81d0638eb98"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.kicad_sym",
+      "bytes": 100423,
+      "sha256": "b51c0d4b383704da764fc5b8a458bca07dcf78df1c883328c9b3be31043f1706"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/C_0805_2012Metric.kicad_mod",
+      "bytes": 2142,
+      "sha256": "e890bdf55fa18fc6df6878eb1b5251a991e1b93985509175eb269d3d002880b4"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/C_1206_3216Metric.kicad_mod",
+      "bytes": 2050,
+      "sha256": "420c3ac494743fbc47653b6e7d0107d51620e25c77eaf73f083e799807fd1381"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/D_SMB.kicad_mod",
+      "bytes": 4816,
+      "sha256": "9c05e7c89fdbe091e34239523a372eea056ffe3ad12d5526f5b49eaa25428579"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/ESP32-S3-WROOM-1U.kicad_mod",
+      "bytes": 15661,
+      "sha256": "0df6102064a1606d6149b45811b9a6f0c65c8159d28e615b59515037ac000b48"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/Fuse_1812_4532Metric.kicad_mod",
+      "bytes": 3331,
+      "sha256": "3356483bdd39fe825cf3511f28c3b990534bad0709d182f2eece5d96325fffd4"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/JST_GH_SM15B-GHS-TB_1x15-1MP_P1.25mm_Horizontal.kicad_mod",
+      "bytes": 6989,
+      "sha256": "166b55567961cf77de9f65aec1f52da3f37d263181de24dc78d7f0af1ce22b7a"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/L_Bourns-SRN6028.kicad_mod",
+      "bytes": 3142,
+      "sha256": "98a4ba6f365fafe643ad89edfa5569bcbfc51d983deb81a82a6d91dd9394a8f3"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/LED_0805_2012Metric.kicad_mod",
+      "bytes": 2599,
+      "sha256": "ce3a8266ee445b343374e2391b3b931a2bbc27f83d4f06af397cbea91df53178"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/MountingHole_3.2mm_M3.kicad_mod",
+      "bytes": 1364,
+      "sha256": "3853c52bba27d3e3e3e18db44a20dfb296eb9e6cd16ebf26fe4a96a2ee8add3b"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
+      "bytes": 3250,
+      "sha256": "8952158347d7b7cc13924c62dccb0c48911af892bb009a0de27cb4d3c25cc1bb"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/PinHeader_1x06_P2.54mm_Vertical.kicad_mod",
+      "bytes": 3545,
+      "sha256": "e3c3501f520fc1fc39eeb5d72137e680e509c0df2348ca77fef1b9db6ab974f0"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/PinHeader_1x07_P2.54mm_Vertical.kicad_mod",
+      "bytes": 3681,
+      "sha256": "584800ecbcb47d613dc4142d541861e9e6c0f919a03052df9fd89c113db4e82f"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/PinHeader_2x14_P2.54mm_Vertical.kicad_mod",
+      "bytes": 6829,
+      "sha256": "b0b7eda958a1efb1d975739ba218299c55732a9e7102340517fee6580c8ce6e9"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/R_0805_2012Metric.kicad_mod",
+      "bytes": 2057,
+      "sha256": "949bbbe025b509557866ddd9fcb0403244571f3ceb4f954c9766ee622d18421c"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/SOT-23-6.kicad_mod",
+      "bytes": 4568,
+      "sha256": "ea29040bed73e5dfa455e36f2c9324b0de7782c5a6cf79040b7d885ff766fdb4"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/SOT-23.kicad_mod",
+      "bytes": 4800,
+      "sha256": "7fb2859c6463f3a37966a1a20c31d8bfe7d4e8459d00bb165d5a7488270816c5"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/SSOP-8_2.95x2.8mm_P0.65mm.kicad_mod",
+      "bytes": 4891,
+      "sha256": "090b79404c6d3532d31c2be03e71e76c7095e68e2dcb8a17fefe293c5699e16c"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/SW_PUSH_6mm.kicad_mod",
+      "bytes": 6016,
+      "sha256": "e284d5bbfb435ef0ad577512ffc7da06ea7cf5c87753287922d89e84c7f4a2a7"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/TestPoint_Pad_D2.0mm.kicad_mod",
+      "bytes": 1845,
+      "sha256": "075c8efad44dc51dedc947dbb0c586ddfdca34600187cc8ae1a8385e02c6a155"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/Texas_RVC0020A_WQFN-20-1EP_3x4mm_P0.5mm_EP1.6x2.6mm.kicad_mod",
+      "bytes": 8110,
+      "sha256": "5f4acb4472fc2b50a9084bd0b18babf559a583baeb710cbcff36789c72524c8d"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/Texas_X2QFN-12_1.6x1.6mm_P0.4mm.kicad_mod",
+      "bytes": 6025,
+      "sha256": "fc93cc3bacd218204b9a85e59e899f5c0513701ff4c5d2d204c083aa35e163b7"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/TSOT-23-6.kicad_mod",
+      "bytes": 4552,
+      "sha256": "06b16e157385f8d7fbca5e0c323669c3aa880358789d44a456e62290be2400e3"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/TSSOP-14_4.4x5mm_P0.65mm.kicad_mod",
+      "bytes": 5716,
+      "sha256": "8da4c0cda07ca9aadbeb33cd860d9bc90a2b382263b25be3609543a6da4a7258"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.kicad_mod",
+      "bytes": 7170,
+      "sha256": "012da5bac71f8e9d4f59d0f7041c3cd8e1e5af3a3d297354b974f61ab24e8691"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/Nexus.pretty/VSSOP-8_2.3x2mm_P0.5mm.kicad_mod",
+      "bytes": 4343,
+      "sha256": "86c45430902f81c684c44234069616fc5b91e77178e928437c9a103bd4bcaf35"
+    },
+    {
+      "path": "hardware/kicad/nexus-pear-reva/sym-lib-table",
+      "bytes": 154,
+      "sha256": "881bdd97bbc5860806ffdb1a976860408664dfd917250e3313e829de277c1d54"
+    },
+    {
+      "path": "hardware/manufacturing/bom/BOM_REVA.csv",
+      "bytes": 37590,
+      "sha256": "c1b6023653618749175a09f5de67f1d06304d4d6976f4ea5efb2ec9d8e2c7bac"
+    },
+    {
+      "path": "hardware/manufacturing/DO_NOT_ORDER.md",
+      "bytes": 1015,
+      "sha256": "9d1c5fdf46f7d9b30bbff4eded6b49c683296cd0c924466b8c1d613e9cff4b24"
+    },
+    {
+      "path": "hardware/manufacturing/drill/nexus-pear-reva.drl",
+      "bytes": 5657,
+      "sha256": "f6afc2c001020bafafdfedf1e820389e495436fd341f6c2feeaff7ca0885fc5b"
+    },
+    {
+      "path": "hardware/manufacturing/gerbers/nexus-pear-reva-B_Cu.gbl",
+      "bytes": 24775,
+      "sha256": "5b9c3bf0bd2fd23f2b7077c5fd3ebe88355aae6e88012e228719a4efdaee7f7b"
+    },
+    {
+      "path": "hardware/manufacturing/gerbers/nexus-pear-reva-B_Mask.gbs",
+      "bytes": 3161,
+      "sha256": "59c8ae26c4dad299119aa39afa309928111230e17f45524a170c4743b26778ca"
+    },
+    {
+      "path": "hardware/manufacturing/gerbers/nexus-pear-reva-B_Paste.gbp",
+      "bytes": 475,
+      "sha256": "3a3f61c756e1ab2ee9769f1108d0fa7cb023a695ec5e2446a0259ebb697c7a6d"
+    },
+    {
+      "path": "hardware/manufacturing/gerbers/nexus-pear-reva-B_Silkscreen.gbo",
+      "bytes": 476,
+      "sha256": "35bfa8cdc77b49f6fe395efd5b419234900ec883d3537553b541853c9899f38b"
+    },
+    {
+      "path": "hardware/manufacturing/gerbers/nexus-pear-reva-Edge_Cuts.gm1",
+      "bytes": 716,
+      "sha256": "f79ddc3c3db92c571c9e5242d198b5ec38d87953bd01fab777a84475b15ca09a"
+    },
+    {
+      "path": "hardware/manufacturing/gerbers/nexus-pear-reva-F_Cu.gtl",
+      "bytes": 87142,
+      "sha256": "4d86551b1f49ab623fb2be1d524016ecc43edbc32b78e9f0f8491194498dc6c1"
+    },
+    {
+      "path": "hardware/manufacturing/gerbers/nexus-pear-reva-F_Mask.gts",
+      "bytes": 16560,
+      "sha256": "4fed7b27ac01551c88829e96c4b1bfd82ce568b3ec8836a9451d03329b14d647"
+    },
+    {
+      "path": "hardware/manufacturing/gerbers/nexus-pear-reva-F_Paste.gtp",
+      "bytes": 13121,
+      "sha256": "c4a795b8e0685163f017cba3db8991ad711558a2f9fe03b3c8dc846637056e13"
+    },
+    {
+      "path": "hardware/manufacturing/gerbers/nexus-pear-reva-F_Silkscreen.gto",
+      "bytes": 255505,
+      "sha256": "4a1d471d9da5c167fd1ee2157a534d752ad2d66a3bea26aac5d0450cc9aaf130"
+    },
+    {
+      "path": "hardware/manufacturing/gerbers/nexus-pear-reva-In1_Cu.g1",
+      "bytes": 290599,
+      "sha256": "bd18204a75460be0138f3bbaa7d844c61b04e9b9ac0f51a4c441e065412f7e6f"
+    },
+    {
+      "path": "hardware/manufacturing/gerbers/nexus-pear-reva-In2_Cu.g2",
+      "bytes": 365120,
+      "sha256": "839bca20544cfc989b8113b90d1c102ece70fa79798e0880546aceec419dcfc2"
+    },
+    {
+      "path": "hardware/manufacturing/gerbers/nexus-pear-reva-job.gbrjob",
+      "bytes": 3872,
+      "sha256": "de28020a2169aa675271e335172e2ae018c3293f00f0882334d58dede86ef440"
+    },
+    {
+      "path": "hardware/manufacturing/gerbers.zip",
+      "bytes": 216333,
+      "sha256": "e89302fcc0e806a85a688d24cf8cfd842cac4f8169826c7b903628d7a1c74984"
+    },
+    {
+      "path": "hardware/manufacturing/nexus-pear-reva.step",
+      "bytes": 3835148,
+      "sha256": "b0af8ab85c7b25a75d05a09f305557ead23f3301985d8fb499d97c3d15e6978a"
+    },
+    {
+      "path": "hardware/manufacturing/position/nexus-pear-reva.csv",
+      "bytes": 6911,
+      "sha256": "6f9c7909f7de4ef1e88c97b28bc063c9d6496ec2c9479e4c5ed40a7722bc9f29"
+    },
+    {
+      "path": "hardware/RFQ_GROUPED.csv",
+      "bytes": 8772,
+      "sha256": "4b676e567fe1709352b8bd0589f43e3ce1ade47aea9014ceec12f8680818e7e8"
+    },
+    {
+      "path": "previews/board-3d.png",
+      "bytes": 195451,
+      "sha256": "53707b0c88d7c484d8c7285a852584a2354ba0c77b011350219a89c0fb888fe9"
+    },
+    {
+      "path": "previews/pcb-layers.pdf",
+      "bytes": 764079,
+      "sha256": "6fbff5017932c94a12dc1b348c430c87e596d3422dda2617de28c809f34de2c9"
+    },
+    {
+      "path": "previews/schematic.pdf",
+      "bytes": 368427,
+      "sha256": "2556ed26435d4a6854eb4b5382480f9e5ebdc03ecaf0b4decb2903a4c4eff2f6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1917,
+      "sha256": "72850676db7d0ff9882baec02fab91ea7548058eb1a81873b4127db52f7c3c6d"
+    },
+    {
+      "path": "SUBMISSION.md",
+      "bytes": 1274,
+      "sha256": "5874c04ae17a0a86481a42c508ac22eed4da54ecae19f73313649b1a5bd3b39e"
+    },
+    {
+      "path": "validation/bom-summary.json",
+      "bytes": 115,
+      "sha256": "d3b6fd92374e5671e56615381ec0346f5bd1060ef57cd9eeae4f4d69c2515883"
+    },
+    {
+      "path": "validation/drc-final.json",
+      "bytes": 1108,
+      "sha256": "b0b3699ea8db7f524c1f6ac41884ead3cb79c5918e624404d1883435985f30ae"
+    },
+    {
+      "path": "validation/erc-final.json",
+      "bytes": 2961,
+      "sha256": "2156ba706aeb234b0bd849141065bcfd9a35fb94e0e9b65cd07dfdf6f528fff5"
+    },
+    {
+      "path": "validation/final-check-summary.json",
+      "bytes": 487,
+      "sha256": "4cbaa117e0151815ee6150429daf779664eed3edcbc943af25d4a423f3dfaf5c"
+    },
+    {
+      "path": "validation/footprint-pad-inventory.json",
+      "bytes": 120669,
+      "sha256": "9f7e3acd0428ff4e0cd6ac19b73020c6761eca076ad952c334a4a50c61621d94"
+    },
+    {
+      "path": "validation/layout-metrics.json",
+      "bytes": 4645,
+      "sha256": "daef50eed0a5a25f7461b82cdf711207150e07790b16cd4907cb60ca9b4aa4a9"
+    }
+  ]
+}

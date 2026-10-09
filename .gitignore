@@ -1,0 +1,7 @@
+*.kicad_prl
+*.lck
+*.bak
+*-backups/
+__pycache__/
+node_modules/
+.env

@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "Nexus") (type "KiCad") (uri "${KIPRJMOD}/Nexus.pretty") (options "") (descr "Snapshot of KiCad 10.0.1 native footprints; audit status in docs")))

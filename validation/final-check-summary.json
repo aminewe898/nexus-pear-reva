@@ -1,0 +1,23 @@
+{
+  "erc_violations": 0,
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "footprints": 117,
+  "placement_entries": 96,
+  "bom_rows": 106,
+  "unknown_price_rows": 96,
+  "schematic_pdf_pages": 11,
+  "pcb_pdf_pages": 5,
+  "release_status": "DO NOT ORDER",
+  "physical_tests": false,
+  "complete_procurement_quote": false,
+  "impedance_qualified": false,
+  "missing_3d_models": [
+    "U1",
+    "U7",
+    "J2",
+    "F1",
+    "L1"
+  ]
+}

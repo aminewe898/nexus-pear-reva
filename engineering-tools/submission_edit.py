@@ -13,7 +13,7 @@ heads={
 'DESIGN_REVIEW_REVA.md':'# The pear is on trial — final design review'}
 for name,title in heads.items():
  p=root/'docs'/name;s=p.read_text(encoding='utf8');s=title+'\n'+s.split('\n',1)[1]
- s=s.replace('## Software/tool documentation fetched through Context7','## Software and tool documentation')
+ s=s.replace('## Software and tool documentation','## Software and tool documentation')
  s=s.replace("the user's definition of done",'the release checklist').replace('## Defects fixed before final checks','## Bugs evicted before the final checks').replace('## Five mandatory release gates','## Five things still blocking the fab button')
  p.write_text(s,encoding='utf8')
 p=root/'README.md';s=p.read_text(encoding='utf8').replace('# NEXUS PEAR REV A — DO NOT ORDER','# NEXUS PEAR REV A — pear pressure').replace('## Open and review','## The receipts').replace('## What must change before order','## Before the fab button gets main-character energy');s=s.replace('An actual editable KiCad 10.0.1 engineering candidate:', '**DO NOT ORDER — engineering review submission.**\n\nTiny desk pear, big network energy. An editable KiCad 10.0.1 engineering candidate:');p.write_text(s,encoding='utf8')

@@ -33,7 +33,7 @@ Research date:2026-10-07. Official documents and reputable supplier listings wer
 | MurataMLCC |[Official MLCC product search](https://www.murata.com/en-global/products/capacitor/mlcc),exact MPNs inBOM |DC-bias curves,land patterns and exact quotes not captured.|
 | YageoRC0805 resistors |[Official product search](https://www.yageo.com/en/ProductSearch),exact candidateMPNs inBOM |Specific values/zero-ohm jumper designation and supplier quotes need qualification.|
 
-## Software/tool documentation fetched through Context7
+## Software and tool documentation
 
 - [KiCad10 CLI](https://docs.kicad.org/10.0/en/cli/cli.html):ERC,DRC and native exports. Installed version10.0.1.
 - [ESP-IDF5.5.4 S3 i8080 LCD](https://docs.espressif.com/projects/esp-idf/en/v5.5.4/esp32s3/api-reference/peripherals/lcd/i80_lcd.html):8/16-bit DMA bus and memory constraints.

@@ -9,3 +9,7 @@ Open hardware/kicad/nexus-pear-reva/nexus-pear-reva.kicad_pro in KiCad 10. Nativ
 hardware/BOM_REVA.csv contains exact candidate MPNs; hardware/RFQ_GROUPED.csv groups quantities for procurement. Pricing is incomplete. SUBMISSION.md is the short cover note; docs/ contains the architecture, processor comparison, display/audio/power calculations, pin map, footprint review, sources and first-article test plan. docs/DESIGN_REVIEW_REVA.md identifies every remaining release gate. Native ERC/DRC reports, pad inventory, route metrics and hashed delivery manifest are under validation/.
 
 The revised circuit adds hardware Type-C current qualification and protected input power, removes independently powered 3.3 V peripherals, isolates audio signals and replaces the undocumented display. Corrected manufacturer footprints and routing are in this project's native files. Firmware, physical qualification, complete procurement and enclosure design remain to be completed.
+
+## Publication check — 2026-10-10
+
+A quick source/history credential-pattern scan found no obvious credentials. The delivery manifest was checked against the current checkout: 81 of 84 recorded files match their hashes. The KiCad project file, manufacturing STEP file, and `validation/bom-summary.json` differ from the recorded manifest. This indicates a stale or inconsistent delivery record; those artifacts need reconciliation before release. No CAD regeneration, electrical validation, fabrication approval, or bench testing was performed in this check. The **DO NOT ORDER** status remains in force.

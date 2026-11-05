@@ -5,3 +5,6 @@
 __pycache__/
 node_modules/
 .env
+
+# Packaged submissions are published as GitHub Release assets
+*.zip
